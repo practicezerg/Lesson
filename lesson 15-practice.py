@@ -39,16 +39,24 @@
 #         c1 -= 1
 #     print(stroka)
 #=====================================
-# a3 = input("Input numbers=       ")
-# b3 = input("Input numbers=       ")
-# c3 = input("Input numbers=       ")
-# d3 = input("Input numbers=       ")
-# e3 = input("Input numbers=       ")
-# f3 = input("Input numbers=       ")
-# # возможно через лен считать сколько символов ?
-#
-# print(round(max(a3, b3, c3, g3, f3, e3), 2))
-# print(min(a3, b3, c3, g3, f3, e3))
+a3 = input("Input numbers=       ")
+b3 = input("Input numbers=       ")
+c3 = input("Input numbers=       ")
+d3 = input("Input numbers=       ")
+e3 = input("Input numbers=       ")
+f3 = input("Input numbers=       ")
+# возможно через лен считать сколько символов ?
+if a3 > b3:
+    print("a3 > b3")
+elif c3 > d3:
+    print("c3 > d3")
+elif e3 > f3:
+    print("e3 > f3")
+
+
+
+print(round(max(a3, b3, c3, d3, e3, f3), 2))
+print(min(a3, b3, c3, d3, e3, f3))
 
 
 

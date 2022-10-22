@@ -1,9 +1,17 @@
 def getinput():
-    a = str(input("input something=     "))
+    a = input("input something=     ")
+    print(type(a))
     return a
 
+
 def testinput(a):
-    if
+    try:
+        type(a) != int
+        print("False")
+        return False
+    except:
+        print("True")
+        return True
     # try:
     #     a = int(a)
     #     print("true")
@@ -12,9 +20,11 @@ def testinput(a):
     #     print("false")
     #     return False
 
+
 def strToInt(a):
     a = int(a)
     return a
+
 
 def printInt(a):
     print(a)
