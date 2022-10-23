@@ -46,13 +46,17 @@ d3 = input("Input numbers=       ")
 e3 = input("Input numbers=       ")
 f3 = input("Input numbers=       ")
 # возможно через лен считать сколько символов ?
-if a3 > b3:
-    print("a3 > b3")
-elif c3 > d3:
-    print("c3 > d3")
-elif e3 > f3:
-    print("e3 > f3")
+if a3, b3, c3, d3, e3, f3 > 0;
 
+# def pods4et():
+#     if a3 > b3:
+#         return a3
+#     if c3 > d3:
+#         return b3
+#     if e3 > f3:
+#         return e3
+#
+#     print(a3, "= max")
 
 
 print(round(max(a3, b3, c3, d3, e3, f3), 2))
