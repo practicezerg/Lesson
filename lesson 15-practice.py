@@ -46,9 +46,15 @@ d3 = input("Input numbers=       ")
 e3 = input("Input numbers=       ")
 f3 = input("Input numbers=       ")
 # возможно через лен считать сколько символов ?
-if a3, b3, c3, d3, e3, f3 > 0;
+if a3 > b3:
+    print(a3 > b3)
+if a3 > c3:
+if a3 > d3:
+if a3 > e3:
+if a3 > f3:
 
-# def pods4et():
+
+    # def pods4et():
 #     if a3 > b3:
 #         return a3
 #     if c3 > d3:

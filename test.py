@@ -1,8 +1,4 @@
-#abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-print(ord("a"))
-print(ord("A"))
-print(ord("Z"))
-print(ord("z"))
-print(chr(55))
-
-#65-122 включительно
+from random import random, randrange, randint
+a = -5.5
+b = 6
+print(randint(a, b))
