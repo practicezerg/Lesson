@@ -1,11 +1,23 @@
-spisok5 = []
-spisok6 = []
-g5 = len(spisok5)
-while g5 < 5:
-    z5 = str(input("input word=  "))
-    print(z5)
-    spisok5.append(z5)
-    spisok6.append(len(z5))
-    g5 += 1
-print(spisok5)
-print(spisok6)
+from random import randint, random
+y = []
+for i in range(100):
+    y.append(randint(-999, 999))
+print(len(y))
+print(y)
+
+
+def spisok(y):
+    for i2 in range(90):
+        print(y[i2:(i2+10)])
+
+
+spisok(y)
+
+
+def spisok_sort(y):
+    y.sort()
+    for i2 in range(90):
+        print(y[i2:(i2 + 10)])
+
+
+spisok_sort(y)
