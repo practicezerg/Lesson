@@ -1,12 +1,14 @@
-# * "String"      -> "SSttrriinngg"
-# * "Hello World" -> "HHeelllloo  WWoorrlldd"
-# * "1234!_ "     -> "11223344!!__
+num = 5
 
-a = "String"
-x=0
-print(a[x]*2)+(a[x-1]:)
-for i in a:
-    i = (a[0]*2)
+g = num % 2
+print(g)
+if int(num / 2):
+    print("OK")
+else:
+    print("no")
 
 
-print(a)
+# print(test)
+# my_str = '01234567890'
+# print(my_str.endswith('0123', 0,4))
+# print(my_str.endswith("0"))
