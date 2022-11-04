@@ -9,7 +9,7 @@ s = s[0:-1] + " i okno!"
 print(s)
 s1 = "Mama Mila ramy i okno poka ti spal"
 s51 = (s1.split())
-print(s1.split())
+print(s1.split(), "для позиционки")
 print(s1.split("o"))
 s2 = "400300200100"
 print(s2.split("00"))
