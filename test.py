@@ -14,11 +14,21 @@
 #     x += 1
 # print(lst2)
 
-list = ([1,2,3,4,5])
-print(list[2])
-x = 0
-for i in list:
-    list[x] = -i
-    x += 1
-    print(i)
-print(list)
+# list = ([1,2,3,4,5])
+# print(list[2])
+# x = 0
+# for i in list:
+#     list[x] = -i
+#     x += 1
+#     print(i)
+# print(list)
+
+
+
+import random
+
+
+print(random.randint(0, 10))
+print("кидает инициативу")
+b = random.randint(0, 10)
+print(b, "кидает инициативу.Толик рад если больше 8")
