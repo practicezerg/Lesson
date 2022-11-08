@@ -27,8 +27,28 @@
 
 import random
 
+def game1(slovo_test):
+    print(slovo_test)
+    """1 easy режим 2 подсказки"""
+    print(len(slovo_test))
+    b1 = random.randint(0, len(slovo_test)-1)
+    b2 = random.randint(0, len(slovo_test)-1)
+    while b2 == b1:
+        b2 = random.randint(0, len(slovo_test)-1)
+    print(slovo_test[b1], slovo_test[b2])
+    show_user = len(slovo_test) * "*"
+    print(show_user)
+    show_user.replace(show_user[b1], slovo_test[b1])
+    print(show_user[b1])
+    print(slovo_test[b1])
+    show_user.replace(show_user[b2], slovo_test[b2])
+    print(show_user)
+    # for i in slovo_test:
 
-print(random.randint(0, 10))
-print("кидает инициативу")
-b = random.randint(0, 10)
-print(b, "кидает инициативу.Толик рад если больше 8")
+
+
+
+
+
+slovo_test = "Аристократия"
+game1(slovo_test)

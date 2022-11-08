@@ -23,9 +23,9 @@ print(s1.find("a", 4))   #с какого индекса начинаем иск
 print(s1.replace("Mama", "Sanya"))  #первое заменяет на второе
 s5 = "Dolgno bit vash rost - {}, s takim vesom {}" # №можно нумеровать вставки переменных
 print(s5.format(198, 95))
-s6 = "ti bil vesma espeshnim v svoi {1}, tak kak y4ila {2}. I eto bilo v {0}"
+s6 = "ti bil vesma yspeshnim v svoi {1}, tak kak y4ila {2}. I eto bilo v {0}"
 print(s6.format(1986, 20, 10))
-s7 = "ti bil vesma espeshnim v svoi {vozrast}, tak kak y4ila {let}. I eto bilo v {god}"
+s7 = "ti bil vesma yspeshnim v svoi {vozrast}, tak kak y4ila {let}. I eto bilo v {god}"
 print(s7.format(god ="1986",let = "10", vozrast = "20"))
 print("{1:.2f} {0:.3f}".format(3.33333, 10/6))
 print(s1.lower())   #все маленькими
