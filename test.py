@@ -28,22 +28,25 @@
 import random
 
 def game1(slovo_test):
-    print(slovo_test)
+    print(slovo_test, "= slovo_test")
     """1 easy режим 2 подсказки"""
-    print(len(slovo_test))
     b1 = random.randint(0, len(slovo_test)-1)
     b2 = random.randint(0, len(slovo_test)-1)
     while b2 == b1:
         b2 = random.randint(0, len(slovo_test)-1)
     print(slovo_test[b1], slovo_test[b2])
-    show_user = len(slovo_test) * "*"
-    print(show_user)
-    show_user.replace(show_user[b1], slovo_test[b1])
-    print(show_user[b1])
-    print(slovo_test[b1])
-    show_user.replace(show_user[b2], slovo_test[b2])
-    print(show_user)
-    # for i in slovo_test:
+    show_user_hard = len(slovo_test) * "*"
+    show_user_easy = ""
+    for i in slovo_test:
+        if i != slovo_test[b1] and i != slovo_test[b2]:
+            show_user_easy = show_user_easy + "*"
+        else:
+            show_user_easy = show_user_easy + i
+    print(show_user_easy, "= show_user_easy")
+    return show_user_hard, show_user_easy
+
+
+
 
 
 
