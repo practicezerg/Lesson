@@ -13,6 +13,7 @@
 #     g1.writelines(a2)
 # ================================================
 a = open("nums.txt")
+print(a)
 b = 0
 for i in a:
     print(i)

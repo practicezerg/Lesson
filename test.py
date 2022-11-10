@@ -49,5 +49,12 @@
 # slovo_test = "Аристократия"
 # game1(slovo_test)
 
-
-open_file = open("slova.txt", "r")
+import random
+open_file = open("slova.txt", "r", encoding="utf-8")
+print(open_file)
+num_string_all = len(open('slova.txt').readlines())  # тут количество слов в списке.
+ran_num = random.randint(1, num_string_all) #случайное число для выбора строки со словом
+print(ran_num)
+slovo_test = open_file.readlines(ran_num)
+# slovo = slovo_test.replace('\n', '')
+print(slovo_test)
