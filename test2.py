@@ -1,11 +1,17 @@
-a = "sdf dfsd 0 asda 1 asdasd 4  23f34fsdf"
-b = a.split(" ")
-print(b)
-g = 0
-for i in b:
-    if b.isdigit[0:] == True:
-        i = int(i)
-        g = g + i
-    else:
-        continue
+
+def sum_numbers(text):
+    b = text.split(" ")
+    g = 0
+    print(b)
+    for i in b:
+        try:
+            i = int(i)
+            g += i
+        except:
+            pass
+    return g
+
+
+text = "This picture is an oil on canvas painting by Danish artist Anna Petersen between "
+g = sum_numbers(text)
 print(g)
