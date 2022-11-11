@@ -1,17 +1,21 @@
+import random
+def game1(slovo):
+    # print(slovo, "= slovo_test")
+    """1 easy режим 2 подсказки"""
+    b1 = random.randint(0, len(slovo)-1)
+    b2 = random.randint(0, len(slovo)-1)
+    while b2 == b1:
+        b2 = random.randint(0, len(slovo)-1)
+    # print(slovo[b1], slovo[b2])
+    show_user_hard = len(slovo) * "*"
+    show_user_easy = ""
+    for i in slovo:
+        if i != slovo[b1] and i != slovo[b2]:
+            show_user_easy = show_user_easy + "*"
+        else:
+            show_user_easy = show_user_easy + i
+    # print(show_user_easy, "= show_user_easy")
+    return show_user_hard, show_user_easy
 
-def sum_numbers(text):
-    b = text.split(" ")
-    g = 0
-    print(b)
-    for i in b:
-        try:
-            i = int(i)
-            g += i
-        except:
-            pass
-    return g
-
-
-text = "This picture is an oil on canvas painting by Danish artist Anna Petersen between "
-g = sum_numbers(text)
-print(g)
+slovo = game1("Гавань")
+print(slovo)

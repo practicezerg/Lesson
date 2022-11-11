@@ -1,3 +1,4 @@
+"""какое то задание"""
 # my_str = '01234567890'
 # print(my_str.endswith('0123', 0,4))
 # print(my_str.endswith("0"))
@@ -23,38 +24,35 @@
 #     print(i)
 # print(list)
 
+"""гадание самой карты"""
 
-#
-# import random
-#
-# def game1(slovo_test):
-#     print(slovo_test, "= slovo_test")
-#     """1 easy режим 2 подсказки"""
-#     b1 = random.randint(0, len(slovo_test)-1)
-#     b2 = random.randint(0, len(slovo_test)-1)
-#     while b2 == b1:
-#         b2 = random.randint(0, len(slovo_test)-1)
-#     print(slovo_test[b1], slovo_test[b2])
-#     show_user_hard = len(slovo_test) * "*"
-#     show_user_easy = ""
-#     for i in slovo_test:
-#         if i != slovo_test[b1] and i != slovo_test[b2]:
-#             show_user_easy = show_user_easy + "*"
-#         else:
-#             show_user_easy = show_user_easy + i
-#     print(show_user_easy, "= show_user_easy")
-#     return show_user_hard, show_user_easy
-#
-#
-# slovo_test = "Аристократия"
-# game1(slovo_test)
+"""ниже слово переделываем в **** для 2 режимов"""
 
 import random
-open_file = open("slova.txt", "r", encoding="utf-8")
-print(open_file)
-num_string_all = len(open('slova.txt').readlines())  # тут количество слов в списке.
-ran_num = random.randint(1, num_string_all) #случайное число для выбора строки со словом
-print(ran_num)
-slovo_test = open_file.readlines(ran_num)
-# slovo = slovo_test.replace('\n', '')
-print(slovo_test)
+def game1(slovo):
+    """1 easy режим 2 подсказки"""
+    b1 = random.randint(0, len(slovo)-1)
+    b2 = random.randint(0, len(slovo)-1)
+    while b2 == b1:
+        b2 = random.randint(0, len(slovo)-1)
+    show_user_hard = len(slovo) * "*"
+    show_user_easy = ""
+    for i in slovo:
+        if i != slovo[b1] and i != slovo[b2]:
+            show_user_easy = show_user_easy + "*"
+        else:
+            show_user_easy = show_user_easy + i
+    return show_user_hard, show_user_easy
+
+
+"""ниже пользователь гадает само слово"""
+def game2(slovo):
+    pass
+
+
+
+slovo = "Елочка"
+show_user_hard,show_user_easy = game1(slovo)
+print(show_user_hard)
+print(show_user_easy)
+game2 = game2(slovo)
