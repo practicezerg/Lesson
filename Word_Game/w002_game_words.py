@@ -60,11 +60,9 @@ def game2(slovo, show_user_easy):
         while input_type > 0:
             test_char = char()
             if test_char in slovo:
-
                 print(test_char, "==test_char")
                 print("Есть такая буква!У вас осталось {} попыток!".format(input_type))
                 x = (slovo.find(test_char))
-                print(x)
                 slovo2 = show_user_easy[0:x] + test_char + show_user_easy[x:]
                 print(slovo2)
                 input_type -= 1

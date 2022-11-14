@@ -33,4 +33,5 @@ print(s1.upper())    #все большими
 print(s1.isupper())   #проверяет булит большой символ
 print(s1.islower())   #проверяет булит маленький символ
 print(s2.center(30))  #по цеентру с обоиз сторон 30 пробелов
-print(s2.isdigit())
+print(s2.isdigit())  # проверка на цифру
+print(s7.title())
