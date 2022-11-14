@@ -21,8 +21,8 @@ def ver():
 """ниже хранится список слов. в txt формате.для теста пока 6 слов"""
 def slova():
     import random
-    open_file = open("slova.txt", "r", encoding="utf-8")
-    num_string_all = len(open('slova.txt').readlines())  # тут количество слов в списке.
+    open_file = open("Word_Game/slova.txt", "r", encoding="utf-8")
+    num_string_all = len(open('Word_Game/slova.txt').readlines())  # тут количество слов в списке.
     ran_num = random.randint(0, num_string_all - 1)  # случайное число для выбора строки со словом
     slovo_test = open_file.readlines()
     slovo = slovo_test[ran_num]
