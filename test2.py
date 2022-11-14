@@ -59,19 +59,20 @@ def game2(slovo, show_user_easy):
         try:
             test_char = char()
             if test_char in slovo:
+                print(slovo)
+                print(slovo2)
                 print(test_char, "==test_char")
                 print("Есть такая буква!У вас осталось {} попыток!".format(input_type))
                 x = (slovo.find(test_char))
-                print(x)
-                slovo2 = show_user_easy[0:x] + test_char + show_user_easy[x:]
-                print(slovo2)
+                print(x, "==x ищет букву")
+                slovo2 = show_user_easy[:x] + test_char + show_user_easy[x+1:]
+                print(slovo2, "==slovo2 после вставки среза")
                 input_type -= 1
             else:
                 print("В задуманном мною слове нет такой буквы")
                 print("У вас осталось {} попыток!".format(input_type))
                 input_type -= 1
         except TypeError:
-            print("Друг, ты ввел неверный символ!")
             print("Вводи русские буквы.Попробуй ещё разок")
 
 
@@ -99,7 +100,6 @@ def char():
         return res_char
     else:
         print("Друг, ты ввел неверный символ!")
-        print("Вводи русские буквы.Попробуй ещё разок")
 
 
 

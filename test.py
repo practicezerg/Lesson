@@ -24,37 +24,21 @@
 # print(list)
 
 
-#
-# import random
-#
-# def game1(slovo_test):
-#     print(slovo_test, "= slovo_test")
-#     """1 easy режим 2 подсказки"""
-#     b1 = random.randint(0, len(slovo_test)-1)
-#     b2 = random.randint(0, len(slovo_test)-1)
-#     while b2 == b1:
-#         b2 = random.randint(0, len(slovo_test)-1)
-#     print(slovo_test[b1], slovo_test[b2])
-#     show_user_hard = len(slovo_test) * "*"
-#     show_user_easy = ""
-#     for i in slovo_test:
-#         if i != slovo_test[b1] and i != slovo_test[b2]:
-#             show_user_easy = show_user_easy + "*"
-#         else:
-#             show_user_easy = show_user_easy + i
-#     print(show_user_easy, "= show_user_easy")
-#     return show_user_hard, show_user_easy
-#
-#
-# slovo_test = "Аристократия"
-# game1(slovo_test)
+p0 = 1000
 
-import random
-open_file = open("slova.txt", "r", encoding="utf-8")
-print(open_file)
-num_string_all = len(open('slova.txt').readlines())  # тут количество слов в списке.
-ran_num = random.randint(1, num_string_all) #случайное число для выбора строки со словом
-print(ran_num)
-slovo_test = open_file.readlines(ran_num)
-# slovo = slovo_test.replace('\n', '')
-print(slovo_test)
+percent = 2
+print(percent / 100)
+aug = 50
+p = 1200
+n = 0
+l = aug + int(p0 * (percent / 100))
+print(l)
+while p0 <= p:
+    l = aug + int(p0 * (percent / 100))
+    p0 = p0 + l
+    print(p0)
+    n += 1
+print(n)
+
+
+
