@@ -15,7 +15,7 @@ print(zz)
 
 
 # sw = input("Введите домен свитча == ")
-# sw = sw.split() # sw[0]  таким образом режем пробелы
+# sw = sw.replace(" ","")  таким образом режем пробелы
 
 # zz = subprocess.run(["ping", "{}".format(sw[0])], timeout=5)
 # zz = subprocess.check_output(["ping", "{}".format(sw[0])], timeout=5)
