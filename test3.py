@@ -1,23 +1,5 @@
-test = "qwertyuop"
-print(test.find("w"))
-test = test.islower()
-symbol = "qwertyuiopasdfghjklzxcvbnm"
-for i in symbol:
-    if i in test:
+import subprocess
+import sys
 
-
-
-
-# list_1 = []
-#
-# for i in test:
-#     i.append(list_1)
-#
-# b = 0
-# for i in test:
-#     if i in list_1:
-#         b = 1 + b
-# if b < 2:
-#     print("ok")
-# else:
-#     print("Double")
+zz = subprocess.check_output(["arp", "-a"], timeout=5).decode("cp866")
+print(zz)

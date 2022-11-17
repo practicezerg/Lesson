@@ -1,9 +1,7 @@
 import subprocess
 import sys
 
-zz = subprocess.check_output(['ping', 'google.com'], timeout=5).decode("cp866").replace("Обмен"," Ваня")
-# new_var = zz.decode("cp866")
-# print(new_var)
+zz = subprocess.check_output(["ping", "ya.ru"], timeout=5).decode("cp866")
 print(zz)
 
 
