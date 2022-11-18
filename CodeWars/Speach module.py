@@ -24,24 +24,37 @@ OTHER_TENS = [
 HUNDRED = "hundred"
 
 
-def checkio(num):
-    str_num = str(num)
-    print(len(str_num))
-    str_num_list = []
-    for i in str_num:
-        str_num_list.append(i)
-        print(str_num_list)
-    if len(str_num) == 3:
-        return HUNDRED
-    elif len(str_num) == 2:
-        pass
-    elif len(str_num) == 1:
-        if str_num_list[0] == "1":
-            return FIRST_TEN[0]
-        pass
-    return "string"
+def checkio(num):  # 1 < num < 1000
+    num_str = str(num)
+    x = int(num_str[0])
+    y = int(num_str[1])
+    z = int(num_str[2])
 
 
-num = 1
+
+
+    #
+    # if num == 100:
+    #     return HUNDRED
+    # if 20 <= num <= 99:
+    #     y = int(num_str[1])
+    #     return OTHER_TENS[x-2]+" "+FIRST_TEN[y-1]
+    # if 10 <= num <= 19:
+    #     y = int(num_str[1])
+    #     return SECOND_TEN[y]
+    # if 1 <= num <= 9:
+    #     return FIRST_TEN[num-1]
+    # if 101 <= num <= 109:
+    #     z = int(num_str[2])
+    #     return "One "+ HUNDRED +" and "+ FIRST_TEN[z-1]
+    # if 110 <= num:
+    #     z = int(num_str[2])
+    #     return
+
+
+
+
+
+num = 110
 answer = checkio(num)
 print(answer)
