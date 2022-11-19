@@ -1,4 +1,4 @@
-a = [12, 38.45, "wait", -4, "Alex"]
+a = [12, 38.45, "wait", -4, "Alex", 12]
 my_list = ["test", "job", "relax", "python", "boobs",14, 44,]
 print(a)
 print(my_list)
@@ -28,11 +28,6 @@ b = b[0:2] + b[3:]
 print(b)
 b[0:2] = [15.5, 16.5]
 print(b)
+print(a.count(12), "count ведет подсчет в листе сколько встречается аргумент")
+print(a.index(12), "возвращает индекс элемента")
 
-import random
-c = []
-i = 0
-while i < 10:
-    c.append(random.randint(0,100))
-    i += 1
-print(c)

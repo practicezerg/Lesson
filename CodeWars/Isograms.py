@@ -1,13 +1,17 @@
+"""Проверка на повторения в строке"""
 def is_isogram(string):
-    print("work")
     test = []
     for i in string:
-        if i.find(string)
+        test.append(i.lower())
+    for i in test:
+        num = test.count(i)
+        if num >= 2:
+            return False
+    return True
 
 
-
-string = "Dermatoglyphics"
+string = "aba"
 # string = "moOse"
 # string = "aba"
-x = is_isogram(string)
-print(x)
+result = is_isogram(string)
+print(result)

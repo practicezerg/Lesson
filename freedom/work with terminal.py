@@ -1,5 +1,3 @@
-import subprocess
-import sys
 import telnetlib
 import time
 
