@@ -1,3 +1,6 @@
+import telnetlib
+import time
+
 def input_data():
     sw_domen = input("Введите домен свитча =         ")
     sw_port = input(int("Введите порт клиента =         "))
@@ -66,5 +69,9 @@ def sw_command_500():
 
 def sw_end():
 """выводит лог команды проверки смены тарифа"""
+print("Дружочек, я всё")
 print("Script End")
     pass
+
+
+input_data()
