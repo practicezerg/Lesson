@@ -6,7 +6,7 @@ def to_bytes(line):
 
 sw = ["hn-test-tp-3470-koles.vrn.ru", "10.255.119.214"]
 user = "admin"
-password = "Inter004"
+password = ""
 port = 2
 print(sw[0])
 tn = telnetlib.Telnet("hn-test-tp-3470-koles.vrn.ru")

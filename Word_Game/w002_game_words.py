@@ -94,6 +94,7 @@ def char():
     print("Подумай, назови букву.")
     char_ideal = "йцукенгшщзхъфывапролджэячсмитьбюё"
     res_char = input("Введи букву, а я проверю есть она или нет ==  ")
+    res_char = res_char.lower()
     # print(char)
     if res_char in char_ideal:
         return res_char

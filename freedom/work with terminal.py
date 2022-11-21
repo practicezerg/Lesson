@@ -1,15 +1,16 @@
 import telnetlib
 import time
+import datetime
 
 def to_bytes(line):
     return f"{line}\n".encode("utf-8")
 
-sw = ["hn-test-tp-3470-koles.vrn.ru", "10.255.119.214"]
+sw = "hn-test-tp-3470-koles.vrn.ru"
 user = "admin"
 password = ""  #написать передачу пароля из файла gitignore
-port = 2
-print(sw[0])
-tn = telnetlib.Telnet(sw[0])
+port = 11
+print(sw)
+tn = telnetlib.Telnet(sw)
 tn.read_until(b"login:")
 tn.write(to_bytes(user))
 if password:
@@ -27,6 +28,13 @@ time.sleep(3)
 tn.write(b"write\n")
 time.sleep(3)
 tn.write(b"yes\n")
+time = datetime.datetime.now()
+time2 = str(time)
+time2 = time2.replace(":", "-").replace(".", "--")
+print(time2)
+my_file = open("{}.txt".format(time2), "w+")
+my_file.write("{} + {}port + tarif".format(sw, port))
+my_file.close()
 print("script end")
 
 
