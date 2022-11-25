@@ -19,7 +19,8 @@ def sw_command_100():
     """Ввод самих команд"""
 """D-link"""
     """config ports X capability_advertised 10_half 10_full 100_half 100_full
-    config bandwidth_control X rx_rate no_limit tx_rate no_limit
+    q
+    
     save
     y"""
 """QSW"""

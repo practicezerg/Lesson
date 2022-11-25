@@ -7,3 +7,5 @@ while True:
         print(f'Pressed: {key}')
         if key == 'q':
             break
+
+

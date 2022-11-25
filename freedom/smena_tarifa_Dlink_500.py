@@ -9,15 +9,18 @@ def to_bytes(line):
 sw = input("Введите домен свитча =  ")
 sw = sw.replace(" ","")  #таким образом режем пробелы
 user = "admin"
-password = ""  #написать передачу пароля из файла gitignore
+password = "Inter004"  #написать передачу пароля из файла gitignore
 port_input = input("Введите номер порта клиента =  ")
 port = "config ports {}\n".format(port_input)
 print("Применяю изменения к ", sw)
+
 tn = telnetlib.Telnet(sw)
-tn.read_until(b"UserName:")
+time.sleep(3)
+tn.read_until(b"username:")
 tn.write(to_bytes(user))
+time.sleep(3)
 if password:
-    tn.read_until(b"Password:")
+    tn.read_until(b"password:")
     tn.write(to_bytes(password))
 print("Script started.....")
 time.sleep(3)
