@@ -9,7 +9,7 @@ def to_bytes(line):
 sw = input("Введите домен свитча =  ")
 sw = sw.replace(" ","")  #таким образом режем пробелы
 user = "admin"
-password = "Inter004"  #написать передачу пароля из файла gitignore
+password = ""  #написать передачу пароля из файла gitignore
 port_input = input("Введите номер порта клиента =  ")
 port = "config ports {}\n".format(port_input)
 print("Применяю изменения к ", sw)
