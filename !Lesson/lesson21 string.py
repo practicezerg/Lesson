@@ -17,7 +17,7 @@ print("-".join(s1))
 print("-".join(s2))
 print("".join(s51))
 print(s2.find("0"))  #находит символ и выдает его индекс первый по списку. Если не находит возвращает -1
-print(s1.find("ramy"))
+print(s1.find("ramy"), "ну ка покажи")
 print(s1.find("test"))
 print(s1.find("a", 4))   #с какого индекса начинаем искать
 print(s1.replace("Mama", "Sanya"))  #первое заменяет на второе

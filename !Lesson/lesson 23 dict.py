@@ -1,7 +1,12 @@
 a = {1: "one", 2: "two", 3: "three"}
 b = {
-    dom: ""
+    "code": "RU",
+    "name": "Russian",
+    "population": "human"
 }
+
+for i, value in b.items():
+    print(i, " - ", value)
 print(a)
 print(a[1], "обращаемся по ключу присвоенному в словаре выдает значение")
 """ключ может быть любой 
