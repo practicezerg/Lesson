@@ -40,10 +40,18 @@ def qsw_500():
     time.sleep(3)
 
 
+def pass_txt():
+    open_file = open("passwords for freedom.txt", "r", encoding="utf-8")
+    slovo_test = open_file.readlines()
+    password = slovo_test[1].replace("\n", "")
+    open_file.close()
+    return password
+
+
 user = "admin"
 sw = input("Введите домен свитча =  ")
-password = input("password =    ")
-sw = sw.replace(" ", "")  #таким образом режем пробелы
+password = pass_txt()
+sw = sw.replace(" ", "")  # таким образом режем пробелы
 port_input = input("Введите номер порта клиента =  ")
 port = "interface ethernet 1/0/{}\n".format(port_input)
 tariff = input("100/200/500=    ")

@@ -1,8 +1,18 @@
 import telnetlib
 import time
 
+
 def to_bytes(line):
     return f"{line}\n".encode("utf-8")
+
+
+def pass_txt():
+    open_file = open("passwords for freedom.txt", "r", encoding="utf-8")
+    slovo_test = open_file.readlines()
+    password = slovo_test[1].replace("\n", "")
+    open_file.close()
+    return password
+
 
 sw = ["hn-test-tp-3470-koles.vrn.ru", "10.255.119.214"]
 user = "admin"

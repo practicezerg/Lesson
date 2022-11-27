@@ -1,6 +1,7 @@
 import telnetlib
 import time
 
+
 def to_bytes(line):
     return f"{line}\n".encode("utf-8")
 
@@ -9,14 +10,16 @@ def pass_txt():
     open_file = open("passwords for freedom.txt", "r", encoding="utf-8")
     slovo_test = open_file.readlines()
     password = slovo_test[1].replace("\n", "")
+    open_file.close()
     return password
+
 
 # hn-prlen148-sw05.vrn.ru
 # https://nic2.vrn.ru/swfirmware/   тут можно глянуть аптаймы
 user = "admin"
 sw = input("Введите домен свитча =  ")
 password = pass_txt()
-sw = sw.replace(" ", "")  #таким образом режем пробелы
+sw = sw.replace(" ", "")  # таким образом режем пробелы
 tn = telnetlib.Telnet(sw)
 tn.read_until(b"login:")
 tn.write(to_bytes(user))
@@ -34,7 +37,7 @@ print(info_sw.find("Uptime"))
 print(info_sw.find("days"))
 print(info_sw[info_sw.find("Uptime"): info_sw.find("days")])
 info_uptime = info_sw[info_sw.find("Uptime"): info_sw.find("days")]
-res_uptime_week = info_uptime[info_uptime.find("is")+3: info_uptime.find("w")]
+res_uptime_week = info_uptime[info_uptime.find("is") + 3: info_uptime.find("w")]
 print(res_uptime_week)
 res_uptime_week = int(res_uptime_week)
 if res_uptime_week >= 8:
