@@ -1,7 +1,7 @@
 import time
 import random
 import requests
-import useragent as useragent
+
 
 
 
@@ -11,10 +11,6 @@ def pass_txt():
     login = slovo_test[0].replace("\n", "")
     password = slovo_test[1].replace("\n", "")
     return login, password
-
-
-def to_bytes(line):
-    return f"{line}\n".encode("utf-8")
 
 
 session = requests.Session()
@@ -34,10 +30,8 @@ param = {
 }
 
 res = session.post("https://www.upperdeckepack.com/auth/Auth/LoginForIdentity", data=param, headers=headers).text
-
-profile_info = "https://www.upperdeckepack.com/Dashboard"
-profile_res = session.get(profile_info).text
 print(res, "res")
+
 
 cookies_dict = [
     {"domain": key.domain, "name": key.name, "path": key.path, "value": key.value}
@@ -47,21 +41,30 @@ session2 = requests.Session()
 for cookies in cookies_dict:
     session2.cookies.set(**cookies)
 
-res1 = session.post("https://www.upperdeckepack.com/auth/Auth/LoginForIdentity", data=param)
-print(res1.text, "res1")
-num1 = res1.text.find("Token\":")
-num2 = res1.text.find("Remember")
-user_token = (res1.text[20:54])
+num1 = res.find("Token\":")
+num2 = res.find("Remember")
+user_token = (res[20:54])
 print(user_token)
 headers = {
     "User-Agent": user,
     "Token": user_token
 }
 
-try2 = session2.post("https://www.upperdeckepack.com/auth/Auth/LoginForIdentity", data=param, headers=headers)
+try2 = session2.post("https://www.upperdeckepack.com/api/User/LoginWithToken", headers=headers)
 print(try2.text)
+
+profile_info = "https://www.upperdeckepack.com/Dashboard"
+profile_res = session.get(profile_info).text
+
+print(profile_res, "profile_res")
+open_file = open("upper_try.html", "w", encoding="utf-8")
+open_file.write(profile_res)
+open_file.close()
+
+
 try3 = session2.get(profile_info, data=param, headers=headers)
-print(try3.text)
+# print(try3.text)
+
 
 
 

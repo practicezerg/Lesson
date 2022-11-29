@@ -35,6 +35,8 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
 }
 
-try1 = session.post(link, data=data, headers=headers).text
-print(try1)
+try1 = session.post(link, data=data, headers=headers)
+open_file = open("any auth.html", "w", encoding="utf-8")
+open_file.write(try1.text)
+open_file.close()
 
