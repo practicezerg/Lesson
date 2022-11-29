@@ -30,6 +30,7 @@ elem2.send_keys(password)
 # if elem3 is
 elem4 = driver.find_element(By.CLASS_NAME, "card-footer").click()
 
+elem5 = driver.find_element(By.TAG_NAME, "")
 # elem.send_keys(Keys.RETURN)
 # assert "No results found." not in driver.page_source
 time.sleep(20)

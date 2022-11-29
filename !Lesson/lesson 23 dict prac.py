@@ -45,3 +45,18 @@ def swap_dict(a):
 a2 = swap_dict(a)
 print(a)
 print(a2)
+
+# ==========================
+dir_users = {}
+login = "edyard02@mail.ru"
+psw = "fu83jsp"
+login2 = "edyard0233@mail.ru"
+psw2 = "fu83j332g234g2sp"
+
+
+dir_users["user"] = {login: psw}
+dir_users["user2"] = {login2: psw2}
+dir_users["user2"]["asdasdasd@mail.ru"] = "dji3jij32"
+dir_users["user3"] = {"test@mail.ru": ["dasda", "asdasd"]}
+print(dir_users)
+print(dir_users["user3"])
