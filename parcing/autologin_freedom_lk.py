@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import urllib
 import csv
+import json
 
 
 def pass_txt():
@@ -16,9 +17,10 @@ login, password = pass_txt()
 print(login, password)
 session = requests.Session()
 link = "https://lk.freedom-vrn.ru/#/login?redirect=%2Fmain"
+useragent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
+
 data = {
     "appVersion": "LK, version: 1.1.154, svn: 167, build time: 2022-07-19 18:07:07",
-    "deviceCid": "QYD3TEENZTOIO3MOOXM2TLSG7539APM10ERMZG0RC558NLP1E1JR8Y4X4HD341OZ8F5NJNF12SAG7IHL7N1JORZ4V5Q3IPQKLBV7842GUU8GGMJC4FNSTO44KVQ2C6LN",
     "method": "auth",
     "params": {
         "device": {
@@ -31,12 +33,39 @@ data = {
         "username": login
     }
 }
+data = json.dumps(data)
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
+    "User-Agent": useragent,
+    'Content-type': 'application/json'
 }
 
-try1 = session.post(link, data=data, headers=headers)
+try1 = session.post("https://lk-api.freedom-vrn.ru/lk/api/v1", data=data, headers=headers)
+print(try1.text)
+tyty = json.loads(try1.content)
+
+a = try1.text.find("Cid")
+b = try1.text.find("\"error")
+deviceCid = (try1.text[14:142])
+print(deviceCid, "deviceCid")
+token = try1.text[163:291]
+print(token, "token")
+data = {
+    "appVersion": "LK, version: 1.1.154, svn: 167, build time: 2022-07-19 18:07:07",
+    "deviceCid": deviceCid,
+    "method": "getClient",
+    "params": {}
+}
+headers = {
+    "IC-token": token,
+    "User-Agent": useragent,
+    'Content-type': 'application/json'
+}
+
+data = json.dumps(data)
+try2 = session.post("https://lk-api.freedom-vrn.ru/lk/api/v1", data=data, headers=headers)
+print(try2.text)
+
 open_file = open("any auth.html", "w", encoding="utf-8")
-open_file.write(try1.text)
+open_file.write(try2.text)
 open_file.close()
 

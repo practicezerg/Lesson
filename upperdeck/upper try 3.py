@@ -1,8 +1,17 @@
+import datetime
 import time
 import random
+from datetime import time
+
 import requests
+import json
+from bs4 import BeautifulSoup
 
 
+def debug_fail_for_html(result):
+    open_file = open("any auth.html", "w", encoding="utf-8")
+    open_file.write(result.text)
+    open_file.close()
 
 
 def pass_txt():
@@ -12,15 +21,15 @@ def pass_txt():
     password = slovo_test[1].replace("\n", "")
     return login, password
 
-
+time_start = datetime.datetime.now()
 session = requests.Session()
 login, password = pass_txt()
-user = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
+print(login, password)
+useragent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
 headers = {
-    "User-Agent": user
-
+    "User-Agent": useragent
 }
-param = {
+data = {
     "email": login,
     "password": password,
     "rememberMe": "true",
@@ -29,61 +38,101 @@ param = {
     "platform": "ePack"
 }
 
-res = session.post("https://www.upperdeckepack.com/auth/Auth/LoginForIdentity", data=param, headers=headers).text
-print(res, "res")
-
-
-cookies_dict = [
-    {"domain": key.domain, "name": key.name, "path": key.path, "value": key.value}
-    for key in session.cookies
-]
-session2 = requests.Session()
-for cookies in cookies_dict:
-    session2.cookies.set(**cookies)
-
-num1 = res.find("Token\":")
-num2 = res.find("Remember")
-user_token = (res[20:54])
-print(user_token)
-headers = {
-    "User-Agent": user,
-    "Token": user_token
+try1 = session.post("https://www.upperdeckepack.com/auth/Auth/LoginForIdentity", data=data, headers=headers).text
+arx = json.loads(try1)
+token = (arx["success"]['Token'])
+print(token)
+data = {
+    "token": token,
+    "rememberMe": "true"
 }
+try2 = session.post("https://www.upperdeckepack.com/api/User/LoginWithToken", data=data, headers=headers).text
+arx2 = json.loads(try2)
+UserIdToken = arx2["success"]['userIdentity']["UserIdToken"]
+print(UserIdToken)
+UserAuthToken = arx2["success"]['userIdentity']['UserAuthToken']
+print(UserAuthToken)
+username = arx2["success"]['userIdentity']['Username']
+print(username)
+try3 = session.post("https://www.upperdeckepack.com/api/User/LoginVisit", headers=headers).text
+try4 = session.get("https://www.upperdeckepack.com/api/transfer/GetTransferCount", headers=headers).text
+try5 = session.get("https://www.upperdeckepack.com/api/User/ReloadNotifications/", headers=headers).text
+try6 = session.get("https://www.upperdeckepack.com/api/User/Dashboard", headers=headers).text
+print(json.loads(try6)["DashboardStatus"]["CardsOwned"], " карточек")
+try7 = session.get("https://www.upperdeckepack.com/Store/", headers=headers).text
+soup7 = BeautifulSoup(try7, features="html.parser")
+text71 = soup7.find("div", class_="dropdown")
 
-try2 = session2.post("https://www.upperdeckepack.com/api/User/LoginWithToken", headers=headers)
-print(try2.text)
+"""тут в этом классе
+дальше есть class="dropdown-toggle btn"
 
-profile_info = "https://www.upperdeckepack.com/Dashboard"
-profile_res = session.get(profile_info).text
+не успел
+сделал скрин в телеге сформировалась временная сылка на твой пак который ты выбрал
+"""
+# print(text71)
 
-print(profile_res, "profile_res")
-open_file = open("upper_try.html", "w", encoding="utf-8")
-open_file.write(profile_res)
-open_file.close()
-
-
-try3 = session2.get(profile_info, data=param, headers=headers)
-# print(try3.text)
-
-
-
-
-
+# https://newmsg.upperdeckepack.com//messaging/negotiate?clientProtocol=1.5&userToken=gsuo4V/3Ods16p1vnnWO5B6qQVEWOZidfVv49fnKiqo=&userAuth=sDyXTDPyt5wjO/2sN1yeJhHsYdJJimosFOzAV7RpmFA=&userName=pdsdosoaaa&connectionData=[{"name":"privatemessaginghub"},{"name":"publicmessaginghub"}]&_=1669897451951# def link_for_msg(UserToken, userAuth, username):
+# &connectionData=[{"name":"privatemessaginghub"},{"name":"publicmessaginghub"}]&_=1669897451951#
 #
-# # data = requests.get("https://www.upperdeckepack.com/Collection")
-# # if data.status_code == 200:
-# #     print('Success!')
-# # elif data.status_code == 404:
-# #     print('Not Found.')
-#
-# try1 = requests.post("https://www.upperdeckepack.com/auth/Auth/LoginForIdentity", param)
-# print(try1.text)
+#     b = "3D&userAuth="
+#     c = "3D&userName="
+#     link_for_msg = a + UserToken + b + userAuth + c + username
+#     return link_for_msg
+def link_try_ConnectionToken(UserIdToken,UserAuthToken,username):
 
-# param2 = {
-#     "token": user_token,
-#     "rememberMe": "true"
-# }
-#
-# """добвить хеадерсы и userAgent and cookies"""
-# try2 = requests.post("https://www.upperdeckepack.com/api/User/LoginWithToken", param2)
-# print(try2.text)
+    a = "https://newmsg.upperdeckepack.com//messaging/negotiate?clientProtocol=1.5&userToken="
+    b = "&connectionData=[{\"name\":\"privatemessaginghub\"},{\"name\":\"publicmessaginghub\"}]&_=1909897451951"
+    link_try_ConnectionToken = a + UserIdToken + "&userAuth=" + UserAuthToken + "&userName=" + username + b
+    return link_try_ConnectionToken
+
+# тут сделаем сылочку для токенов
+link_try_ConnectionToken = link_try_ConnectionToken(UserIdToken,UserAuthToken,username)
+print(link_try_ConnectionToken)
+try8 = session.get(link_try_ConnectionToken, data=data, headers=headers).text
+ConnectionToken = json.loads(try8)["ConnectionToken"]
+ConnectionId = json.loads(try8)["ConnectionId"]
+
+def link_for_msg(UserIdToken, UserAuthToken, username, ConnectionToken):
+    a = "https://newmsg.upperdeckepack.com//messaging/send?transport=longPolling&clientProtocol=1.5&userToken="
+    b = "&userAuth="
+    c = "&userName="
+    g = "&connectionToken="
+    e = "&connectionData=[{\"name\":\"privatemessaginghub\"},{\"name\":\"publicmessaginghub\"}]"
+    link_for_msg = a + UserIdToken + b + UserAuthToken + c + username + g + ConnectionToken + e
+    return link_for_msg
+link_for_msg = link_for_msg(UserIdToken, UserAuthToken, username, ConnectionToken)
+
+print(link_for_msg)
+
+
+def msg_for_forum():
+    l = ["Hi somebody wanna trade?", "anybody here? Go trade!", "Go trade with me-_-?", "May be stop blank?Go trade ))",
+         "Any wanna purple cards?20 purple for 1 Combinable?", "Hey wanna trade? msg me!",
+         "Check may be any card need you ?",
+         "Looking for UpperDeck base, any set", "All available, send an offer!", "hi be free for trade?? or blank",
+         "Taking any trades doesn’t have to be anything"]
+    msg_for_forum = l[random.randint(0, len(l) - 1)]
+    return msg_for_forum
+
+
+msg_for_forum = msg_for_forum()
+# "connectionToken" - 128 символов
+data3 = {
+    "transport": "longPolling",
+    "clientProtocol": "1.5",
+    "userToken": UserIdToken,
+    "userAuth": UserAuthToken,
+    "userName": username,
+    "connectionToken": ConnectionToken,
+    "connectionData": "[{\"name\":\"privatemessaginghub\"},{\"name\":\"publicmessaginghub\"}]"
+}
+for_data91 = "{\"H\": \"publicmessaginghub\", \"M\": \"SendMessage\", \"A\": [\" " + msg_for_forum + "\"\", \"sports\"], \"I\": 3}"
+print(for_data91)
+data2 = {
+    "data": for_data91,
+}
+try9 = session.post(link_for_msg, data=data2, headers=headers).text
+print(try9)
+
+# вывод времени работы скрипта
+print(datetime.datetime.now() - time_start)

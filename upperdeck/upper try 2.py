@@ -1,7 +1,6 @@
 import time
 import random
 import requests
-import fake_useragent
 
 
 def pass_txt():

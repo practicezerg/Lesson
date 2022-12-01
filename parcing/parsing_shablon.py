@@ -39,7 +39,7 @@ data ={}
 responce = session.post(link, data=data, headers=header).text
 
 
-html = get_html(url)
+html = get_html(ur  l)
 if html.status_code == 200:
     catalog = []
     pages_count = get_pages_count(html.text)
