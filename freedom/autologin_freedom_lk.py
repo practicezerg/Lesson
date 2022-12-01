@@ -7,7 +7,7 @@ import json
 
 
 def pass_txt():
-    open_file = open("pass.txt", "r", encoding="utf-8")
+    open_file = open("../parcing/pass.txt", "r", encoding="utf-8")
     slovo_test = open_file.readlines()
     login = slovo_test[0].replace("\n", "")
     password = slovo_test[1].replace("\n", "")
@@ -65,7 +65,7 @@ data = json.dumps(data)
 try2 = session.post("https://lk-api.freedom-vrn.ru/lk/api/v1", data=data, headers=headers)
 print(try2.text)
 
-open_file = open("any auth.html", "w", encoding="utf-8")
+open_file = open("../parcing/any auth.html", "w", encoding="utf-8")
 open_file.write(try2.text)
 open_file.close()
 

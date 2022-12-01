@@ -11,10 +11,14 @@ import random
 # c = b.decode()
 # print(c)
 
-strings = ["a","b","c"]
-for i in strings:
-    print(strings[-1])
-    i, strings[-1] = strings[-1], i
-    print(i, "==i")
-    print(strings)
-print(strings)
+
+# import time
+# ts = time.time()
+# print(ts)
+# print(str(time.time()).split('.')[0])
+# print(int(ts))
+
+
+
+
+{"FirstName":"sdfsdf","LastName":"sdfs","BirthDay":"5","BirthMonth":"5","CaptchaToken":"03AEkXODDLVi27sv9OUk9teA-sJNafQfk5-CD1EkksdA3SziJwbADku9Pq4Wn2SzYkkdaZQu6cY1TlphoamkhTb7go4eheR2Pc08KvdpDO1-PQ_DZDYOjFrHJ1l_WqCz9BhF5TNIqmTPO5DQY-2iOm8cxmC_pklucY7Xr6eBpqg1hFD8Igx3RJ1Ro0NlRoc3FfZ9mhgYgJLx3yazxiD7oqc-WB4BPEqLSLrcqFKmWT9VRfwflD9dMfzOZUYr0AjxpFePlZOxudjxRSflPAoomuzQwD5iMfTnfk5DaH-A8O7PhCcJlq5LBsaYmobTSwwCEeW12mT_CwkxuXvcLSKGBdcY_9plPFfn7RPe1Oe6Vt66iYk0LQZ3RJLb998KbK6hbxjsOHvXDKrLHTO-SjqCLLeMlEBQJ0ApxbnjE3q-sUYvmc-6Z3lPXUSpoXIiPccWIjvHyFljPNCBTeM35hErUHUsmWRshHtDr90eZvQKi_sr-aqrNyzO9YZnFtqYkoAcSAOjthhGXOuFnu","Signature":false,"EmailAddress":"afa@mail.ru","BirthYear":"1993","ConfirmPassword":"1234567890aA","Country":"AL","Password":"1234567890aA","UserName":"afaf","QuickRegistration":false,"ReceiveMarketingEmails":true,"TermsAndConditions":true}

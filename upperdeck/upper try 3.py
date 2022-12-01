@@ -1,8 +1,6 @@
 import datetime
 import time
 import random
-from datetime import time
-
 import requests
 import json
 from bs4 import BeautifulSoup
@@ -79,10 +77,11 @@ text71 = soup7.find("div", class_="dropdown")
 #     link_for_msg = a + UserToken + b + userAuth + c + username
 #     return link_for_msg
 def link_try_ConnectionToken(UserIdToken,UserAuthToken,username):
-
     a = "https://newmsg.upperdeckepack.com//messaging/negotiate?clientProtocol=1.5&userToken="
-    b = "&connectionData=[{\"name\":\"privatemessaginghub\"},{\"name\":\"publicmessaginghub\"}]&_=1909897451951"
-    link_try_ConnectionToken = a + UserIdToken + "&userAuth=" + UserAuthToken + "&userName=" + username + b
+    b = "&connectionData=[{\"name\":\"privatemessaginghub\"},{\"name\":\"publicmessaginghub\"}]&_="
+    c = str(time.time()).split('.')[0]
+    print(c)
+    link_try_ConnectionToken = a + UserIdToken + "&userAuth=" + UserAuthToken + "&userName=" + username + b + c
     return link_try_ConnectionToken
 
 # тут сделаем сылочку для токенов
@@ -116,6 +115,7 @@ def msg_for_forum():
 
 
 msg_for_forum = msg_for_forum()
+print(msg_for_forum)
 # "connectionToken" - 128 символов
 data3 = {
     "transport": "longPolling",
@@ -126,12 +126,13 @@ data3 = {
     "connectionToken": ConnectionToken,
     "connectionData": "[{\"name\":\"privatemessaginghub\"},{\"name\":\"publicmessaginghub\"}]"
 }
-for_data91 = "{\"H\": \"publicmessaginghub\", \"M\": \"SendMessage\", \"A\": [\" " + msg_for_forum + "\"\", \"sports\"], \"I\": 3}"
+for_data91 = "{\"H\":\"publicmessaginghub\",\"M\":\"SendMessage\",\"A\":[\"" + msg_for_forum + "\",\"sports\"],\"I\":2}"
 print(for_data91)
 data2 = {
-    "data": for_data91,
+    "data": for_data91
 }
-try9 = session.post(link_for_msg, data=data2, headers=headers).text
+print(data2)
+try9 = session.post(link_for_msg, data=data2, headers=headers)
 print(try9)
 
 # вывод времени работы скрипта
