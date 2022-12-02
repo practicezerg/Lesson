@@ -5,6 +5,9 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import names
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
 
 def registration():
@@ -23,6 +26,8 @@ def registration():
     return first_name, second_name, psw, email, username
 
 time_start = datetime.datetime.now()
+
+driver = webdriver.Chrome()
 first_name, second_name, psw, email, username = registration()
 BirthDay = random.randint(1,29)
 BirthMonth = random.randint(1,12)

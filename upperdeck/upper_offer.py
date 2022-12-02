@@ -42,6 +42,10 @@ time.sleep(5)
 
 # elem.send_keys(Keys.RETURN)
 # assert "No results found." not in driver.page_source
+
+
+
+
 time.sleep(20)
 driver.close()
 driver.quit()
