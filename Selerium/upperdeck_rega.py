@@ -84,7 +84,7 @@ headers = {
     "User-Agent": useragent
 }
 try3 = requests.post("https://www.upperdeckepack.com/Registration", data=data, headers=headers).text
-print(try3)
+print(username)
 open_file = open("any auth.html", "w", encoding="utf-8")
 open_file.write(try3)
 open_file.close()

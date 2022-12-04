@@ -24,4 +24,3 @@ from selenium.webdriver.common.by import By
 # print(str(time.time()).split('.')[0])
 # print(int(ts))
 
-
