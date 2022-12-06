@@ -22,3 +22,4 @@ print(gg1.write("test"))
 print(gg1.writelines(list))
 gg1.close()   # лучше закрывать файл послеработы что бы освободить память
 gg.close()
+open(file, 'w+', encoding='utf-8', errors='ignore')  # игнорирование ошибки

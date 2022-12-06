@@ -32,6 +32,7 @@ def registration():
 driver = webdriver.Chrome()
 useragent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
 Error_scripts = 0
+ReG_is_ok = 0
 tryroad = 10
 while tryroad > 1:
     try:
@@ -41,6 +42,7 @@ while tryroad > 1:
         BirthYear = random.randint(1975, 2003)
         confirm_psw = psw
 
+        driver.maximize_window()
         driver.get("https://www.upperdeckepack.com/Registration")
 
         elem1 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[1]/div/input")
@@ -69,50 +71,90 @@ while tryroad > 1:
         elem8.send_keys(psw)
         elem8.send_keys(Keys.PAGE_DOWN)
         elem9 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[13]/label/input").click()
+        time.sleep(1)
         elem10 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[16]/button").click()
 
-        time.sleep(5)
-        with open("users.json", "r", encoding="utf-8") as file:
-            data = json.load(file)
-        print(type(data))
-        data[email] = psw
-        with open('users.json', 'w', encoding='utf-8') as file:
-            json.dump(data, file, indent=4, ensure_ascii=False)
         time.sleep(2)
+
+        ReG_is_ok += 1
     except:
         print("Error")
         Error_scripts += 1
-        # driver.maximize_window()
-        html = driver.get("https://www.upperdeckepack.com/Store/")
+    print(ReG_is_ok, "удачных регистрации")
+    print(Error_scripts, "ошибок при регистрации" )
 
-        # elem11 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
-        # elem11.send_keys(Keys.DOWN)
-        elem12 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
-        elem12.send_keys(Keys.DOWN)
-        elem13 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a"))).click()
-        elem14 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
-        time.sleep(2)
-        elem15 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
-        # elem16 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div/div/div[1]/div[2]/div[1]/button")
-        time.sleep(2)
-        # начало оффера
-        driver.get("https://www.upperdeckepack.com/Trading/Create/pdsdosoaaa")
-        time.sleep(3)
-        elem16 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[5]/div[1]/div[1]/a/i").click()
-        time.sleep(5)
-        elem17 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[3]/div[1]/div/div[1]/div/a/i")
-        elem17.send_keys(Keys.DOWN)
-        # elem17.click()
-        time.sleep(1)
-        # elem18 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[3]/div[1]/div/div[1]/div/a/i").click()
-        # time.sleep(1)
-        # elem19 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[3]/div[3]/div[1]/div/div[1]/div/a/i").click()
-        # time.sleep(1)
+    print("saved user+login")
+    with open("users.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
 
-        time.sleep(50000)
+    data[email] = psw
+    with open('users.json', 'w', encoding='utf-8') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+    time.sleep(2)
+
+    #попытка открытия пака
+    print("Start Open Pack")
+    driver.get("https://www.upperdeckepack.com/Store")
+    elem11 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
+    for _ in range(5):
+        elem11.send_keys(Keys.DOWN)
+
+    elem12 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a"))).click()
+    time.sleep(2)
+    elem13 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
+    time.sleep(2)
+    elem14 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
+    time.sleep(5)
+    print("Pack is opened")
+
+    # передача карт
+    driver.get("https://www.upperdeckepack.com/Trading/Create/pdsdosoaaa")
+    time.sleep(5)
+    elem15 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[5]/div[1]/div[1]/a/i").click()
+    time.sleep(1)
+
+    elem16 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+    time.sleep(1)
+    elem17 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[1]/div[2]/a/img").click()
+    time.sleep(7)
+    elem18 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+    elem19 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[3]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+    time.sleep(5000)
+    elem20 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[4]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+    time.sleep(2)
+
+    elem21 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"submit-trade\"]"))).click()
 
 
-    time.sleep(15)
+
+    # elem11 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
+    # elem11.send_keys(Keys.DOWN)
+    # elem12 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
+    # elem12.send_keys(Keys.DOWN)
+# elem13 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a"))).click()
+# elem14 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
+# time.sleep(2)
+# elem15 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
+# # elem16 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div/div/div[1]/div[2]/div[1]/button")
+# time.sleep(2)
+# начало оффера
+# driver.get("https://www.upperdeckepack.com/Trading/Create/pdsdosoaaa")
+# time.sleep(3)
+# elem16 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[5]/div[1]/div[1]/a/i").click()
+# time.sleep(500)
+# elem17 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[3]/div[1]/div/div[1]/div/a/i")
+# elem17.send_keys(Keys.DOWN)
+# # elem17.click()
+# time.sleep(1)
+# elem18 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[3]/div[1]/div/div[1]/div/a/i").click()
+# time.sleep(1)
+# elem19 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[3]/div[3]/div[1]/div/div[1]/div/a/i").click()
+# time.sleep(1)
+
+
+
+
+time.sleep(15)
 
 driver.close()
 driver.quit()
