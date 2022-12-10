@@ -25,5 +25,4 @@ from selenium.webdriver.common.by import By
 # print(int(ts))
 
 
-text1 = "[<div class=\"selected-filters filter-selected\" data-reactid=\"143\"><a class=\"filter-item\" href=\"/Collection?filters=none\" title=\"Only items I own\"><span class=\"filter-item-title\">Only items I own</span><span class=\"filter-count\"> (0)</span></a></div>]"
 
