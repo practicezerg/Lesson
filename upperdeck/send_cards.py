@@ -105,7 +105,7 @@ def open_pack():
         try:
             print("Start Open Pack")
             driver.get("https://www.upperdeckepack.com/Store")
-            time.sleep(2)
+            time.sleep(5)
             elem12 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
             for _ in range(5):
                 elem12.send_keys(Keys.DOWN)
