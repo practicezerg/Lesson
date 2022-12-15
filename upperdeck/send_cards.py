@@ -104,25 +104,29 @@ def open_pack():
     while n > 0:
         try:
             print("Start Open Pack")
-            driver.get("https://www.upperdeckepack.com/Store")
-            time.sleep(5)
-            elem12 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
-            for _ in range(5):
-                elem12.send_keys(Keys.DOWN)
-            elem13 = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a"))).click()
-            time.sleep(2)
-            elem14 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(
-                (By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
-            time.sleep(2)
-            elem15 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
-            time.sleep(5)
             res_open_pack = open_pack2()
-            if res_open_pack == "ok":
-                n = n - 1
-                print("Pack is opened")
+            if res_open_pack == "Error":
+                driver.get("https://www.upperdeckepack.com/Store")
+                time.sleep(5)
+                elem12 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a")
+                for _ in range(5):
+                    elem12.send_keys(Keys.DOWN)
+                elem13 = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a"))).click()
+                time.sleep(2)
+                elem14 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(
+                    (By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
+                time.sleep(2)
+                elem15 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
+                time.sleep(5)
+                res_open_pack = open_pack2()
+                if res_open_pack == "ok":
+                    n = n - 1
+                    print("Pack is opened")
+                else:
+                    print("No Cards")
             else:
-                print("No Cards")
+                n = n - 1
         except:
             print("Error with open pack")
 
@@ -168,7 +172,6 @@ driver.maximize_window()
 rega_final()
 open_pack()
 send_cards()
-time.sleep(5000)
 print("script done")
 driver.close()
 driver.quit()
