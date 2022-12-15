@@ -8,8 +8,8 @@ import random
 def pass_txt():
     open_file = open("pass.txt", "r", encoding="utf-8")
     slovo_test = open_file.readlines()
-    login = slovo_test[0].replace("\n", "")
-    password = slovo_test[1].replace("\n", "")
+    login = slovo_test[2].replace("\n", "")
+    password = slovo_test[3].replace("\n", "")
     return login, password
 
 def msg_for_forum():
@@ -17,14 +17,14 @@ def msg_for_forum():
          "Any wanna purple cards?20 purple for 1 Combinable?", "Hey wanna trade? msg me!",
          "Check may be any card need you ?",
          "Looking for UpperDeck base, any set", "All available, send an offer!", "hi be free for trade?? or blank",
-         "Taking any trades doesn’t have to be anything"]
+         "Taking any trades doesn’t have to be anything", "Looking for wishlist trades", "Looking for trades", "Let's trade something",
+         "Trading physical cards for bases", "Trading bases cards for physical", "no redeemed please!", "Same Years set for any"
+         "Duples for Dyples?", "go trade and have good day", "hey wanna same trade today?"]
     msg_for_forum = l[random.randint(0, len(l) - 1)]
     return msg_for_forum
 
 
 login, password = pass_txt()
-login = "unknown_rus@mail.ru"
-password = "Xmzk8825x"
 msg_for_forum = msg_for_forum()
 print(login)
 print(password)
@@ -38,13 +38,12 @@ time.sleep(5)
 elem = driver.find_element(By.ID, "login-email").send_keys(login)
 elem2 = driver.find_element(By.ID, "login-password").send_keys(password)
 elem3 = driver.find_element(By.CLASS_NAME, "card-footer").click()
-time.sleep(15)
-# time.sleep(50000)
-elem4 = driver.find_element(By.CLASS_NAME, "character-countdown").send_keys(msg_for_forum)
-time.sleep(5)
-elem5 = driver.find_element(By.CLASS_NAME, "fa fa-arrow-down ").click()
+time.sleep(3)
+elem4 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[2]/div/div[1]/div[2]/div/div/div/div/div[1]/textarea").send_keys(msg_for_forum)
+time.sleep(3)
+elem5 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div[2]/div/div[1]/div[2]/div/div/div/div/div[2]").click()
+#ожидание 30 минут
+time.sleep(1800)
 
-
-time.sleep(50000)
 driver.close()
 driver.quit()
