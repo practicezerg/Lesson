@@ -9,12 +9,3 @@
 #             break
 #
 
-test = {
-    0: ["151", "fdsdfsdf"],
-    1: ["151", "fdsdfsdf"],
-    2: ["15151", "fdsdfsdf"],
-    3: ["231", "fdsdfsdf"],
-    4: ["1231", "fdsdfsdf"],
-    5: ["114501", "fdsdfsdf"]
-}
-print(test.keys([0:3]))
