@@ -7,6 +7,8 @@ import json
 session = requests.Session()
 stroka = session.get("https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BC%D0%B0%D1%82").text
 soup = BS(stroka, features="lxml")
+
+
 # так же может исользоватся  features="html.parser"
 # print(soup)
 #получение всех тегов со страницы title
