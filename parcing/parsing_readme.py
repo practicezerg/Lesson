@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as BS
 import requests
 import lxml
 import re
+import json
 
 session = requests.Session()
 stroka = session.get("https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BC%D0%B0%D1%82").text
@@ -30,10 +31,20 @@ soup = BS(stroka, features="lxml")
 # как спарсить ссылки
 links = soup.find(class_="wikitable").find("tbody").find_all("a")
 print(links)
+test_for_json = {}
 for i in links:
     item_text = i.text
     url = i.get("href")
-    print(f"{item_text}: {url}")
+    url2 = "https://ru.wikipedia.org"+url
+    print(f"{item_text}: {url2}")
+
+
+    test_for_json[item_text] = url2
+
+    with open("fail.json", "w") as file:
+        json.dump(test_for_json, file, indent=4, ensure_ascii=False)
+        """indent параметр отступа в файле - если убрать будет все в одну строку"""
+        """ensure)ascii - снимает проблемы с кодировкой"""
 
 # по структуре снизу верх find_parent()  find_parents()
 
@@ -61,3 +72,4 @@ print(text8)
 
 text9 = soup.find_all(text=re.compile("([Тт]омат)"))
 # Данная запись указывает все слова с маленькой и большой буквой
+
