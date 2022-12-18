@@ -153,16 +153,18 @@ def send_cards():
                                                                                  "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
             elem22 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
                                                                                  "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[4]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
-            time.sleep(15)
-            elem24 = WebDriverWait(driver, 20).until(
-                EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[3]/div/div[1]/button"))).click()
-            time.sleep(15)
-            elem25 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,"/html/body/div[7]/div/div/div/div[3]/div/button[1]"))).click()
+
+            elem23 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"review-trade\"]/a")))).click()
+            elem23_5 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
+            time.sleep(5)
+            elem23_9 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
+            time.sleep(5000)
             time.sleep(2)
             n -= 1
             print("Cards Sended")
-        except:
-            print("error with send")
+        except Exception as e:
+            print(e)
+            print("erorr with send")
 
 
 
