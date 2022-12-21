@@ -158,6 +158,10 @@ def send_cards():
             elem23_5 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
             time.sleep(5)
             elem23_9 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
+            time.sleep(20)
+            driver.close()
+            driver.quit()
+
             time.sleep(5000)
             time.sleep(2)
             n -= 1
