@@ -5,6 +5,12 @@ import re
 import json
 
 session = requests.Session()
+useragent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0"
+headers = {
+    "User-Agent": useragent
+}
+
+
 stroka = session.get("https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BC%D0%B0%D1%82").text
 soup = BS(stroka, features="lxml")
 

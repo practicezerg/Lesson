@@ -9,6 +9,23 @@
 #             break
 #
 
-l = ['\t+ CAM 044\tостановка "Улица Куцыгина"\t', '\t+ CAM 060\tостановка "Институт МЧС"\t', '\t+ CAM 077\tостановка "Поликлиника №11"\t', '\t+ CAM 111\tостановка "Улица Куцыгина"\t', '\t+ CAM 321\tостановка "Улица Куцыгина"\t']
-for i in l:
-    print(i)
+def dig_pow(n, p):
+    res = 0
+    x = 0
+    for i in str(n):
+        res = res + int(i)**(p+x)
+        x += 1
+    print(res)
+    print(res/n)
+    k = res/n
+    print(k)
+    if int(res/n):
+        return int(k)
+    else:
+        return -1
+
+
+n = 3456789
+p = 5
+res = dig_pow(n, p)
+print(res)
