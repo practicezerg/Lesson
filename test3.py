@@ -9,23 +9,22 @@
 #             break
 #
 
-def dig_pow(n, p):
-    res = 0
-    x = 0
-    for i in str(n):
-        res = res + int(i)**(p+x)
-        x += 1
-    print(res)
-    print(res/n)
-    k = res/n
-    print(k)
-    if int(res/n):
-        return int(k)
-    else:
-        return -1
+def sum_dig_pow(a, b):
+    l = []
+    for i in range(a, b+1):
+        n = 1
+        sum = 0
+        for x in str(i):
+            res = int(x) ** n
+            sum += res
+            n += 1
+        if sum == i:
+            l.append(i)
+    return l
 
 
-n = 3456789
-p = 5
-res = dig_pow(n, p)
+
+a = 1
+b = 100
+res = sum_dig_pow(a, b)
 print(res)
