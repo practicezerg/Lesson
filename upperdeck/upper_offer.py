@@ -7,7 +7,7 @@ import names
 
 
 def pass_txt():
-    open_file = open("pass.txt", "r", encoding="utf-8")
+    open_file = open("../working/parcing/pass.txt", "r", encoding="utf-8")
     slovo_test = open_file.readlines()
     login = slovo_test[0].replace("\n", "")
     password = slovo_test[1].replace("\n", "")

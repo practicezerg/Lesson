@@ -1,3 +1,4 @@
+import
 # import keyboard
 #
 # while True:
@@ -8,23 +9,3 @@
 #         if key == 'q':
 #             break
 #
-
-def sum_dig_pow(a, b):
-    l = []
-    for i in range(a, b+1):
-        n = 1
-        sum = 0
-        for x in str(i):
-            res = int(x) ** n
-            sum += res
-            n += 1
-        if sum == i:
-            l.append(i)
-    return l
-
-
-
-a = 1
-b = 100
-res = sum_dig_pow(a, b)
-print(res)
