@@ -1,4 +1,3 @@
-import
 # import keyboard
 #
 # while True:
@@ -9,3 +8,15 @@ import
 #         if key == 'q':
 #             break
 #
+
+# n = 0
+# g = "gsgsgsgdsgdsdgs"
+# for i in g:
+#     name = "page" + str(n)
+#     n += 1
+#     print(name)
+#     name
+
+for i in range(217):
+    print(i)
+
