@@ -9,14 +9,24 @@
 #             break
 #
 
-# n = 0
-# g = "gsgsgsgdsgdsdgs"
-# for i in g:
-#     name = "page" + str(n)
-#     n += 1
-#     print(name)
-#     name
 
-for i in range(217):
-    print(i)
 
+def checkio(food):
+    golyb = 1
+    n = 2
+    res = 0
+    while food > golyb:
+        food = food - golyb
+        res += 1
+        if food < golyb:
+            return golyb
+        golyb = golyb + n
+
+        n +=1
+    return res
+
+
+
+food = 3
+n = checkio(food)
+print(n)
