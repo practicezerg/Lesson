@@ -33,6 +33,10 @@ def info_for_rega():
 def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, BirthYear):
 
     driver.get("https://www.upperdeckepack.com/Registration")
+    print("captcha")
+    captca_del = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[5]/button"))).click()
+    print("captcha получилось")
     elem1 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[1]/div/input").send_keys(first_name)
     elem2 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[2]/div/input").send_keys(second_name)
     elem3 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[5]/div/input").send_keys(email)
@@ -101,6 +105,7 @@ def open_pack2():
 
 def open_pack():
     n = 1
+    error_pack = 0
     while n > 0:
         try:
             print("Start Open Pack")
@@ -118,7 +123,7 @@ def open_pack():
                     (By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
                 time.sleep(5)
                 elem15 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
-                time.sleep(5)
+                time.sleep(10)
                 res_open_pack = open_pack2()
                 if res_open_pack == "ok":
                     n = n - 1
@@ -129,6 +134,10 @@ def open_pack():
                 n = n - 1
         except:
             print("Error with open pack")
+            error_pack += 1
+            if error_pack > 5:
+                driver.close()
+                driver.quit()
 
 
 def send_cards():
@@ -156,16 +165,37 @@ def send_cards():
 
             elem23 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"review-trade\"]/a")))).click()
             elem23_5 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
-            time.sleep(5)
-            elem23_9 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
-            time.sleep(20)
-            driver.close()
-            driver.quit()
+            elem23_9 = WebDriverWait(driver, 15).until(
+                EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
+            # page = driver.page_source
+            # soup = BS(page, features="html.parser")
+            # text1 = soup.find("div", class_="modal-content")
+            # for i in text1:
+            #     accept = i.text
+            #     print(accept)
+            # if accept == "YesNo":
+            #     elem23_9 = WebDriverWait(driver, 15).until(
+            #         EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
 
-            time.sleep(5000)
-            time.sleep(2)
-            n -= 1
-            print("Cards Sended")
+            driver.get("https://www.upperdeckepack.com/Dashboard")
+            time.sleep(15)
+            soup1 = BS(driver.page_source, features="html.parser")
+            text1 = soup1.find_all("div", class_="highlight-count count-text")
+            print(text1)
+
+            l_res = []
+            for i in text1:
+                number_trades = i.text
+                l_res.append(number_trades)
+                print(number_trades)
+            if l_res[2] == "1 Sent Trades":
+                    print("Cards Sended")
+                    driver.close()
+                    driver.quit()
+                    break
+
+
+
         except Exception as e:
             print(e)
             print("erorr with send")
@@ -179,5 +209,3 @@ rega_final()
 open_pack()
 send_cards()
 print("script done")
-driver.close()
-driver.quit()
