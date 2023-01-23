@@ -187,7 +187,6 @@ def send_cards():
             for i in text1:
                 number_trades = i.text
                 l_res.append(number_trades)
-                print(number_trades)
             if l_res[2] == "1 Sent Trades":
                     print("Cards Sended")
                     driver.close()
