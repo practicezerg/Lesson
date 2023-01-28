@@ -33,10 +33,10 @@ def info_for_rega():
 def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, BirthYear):
 
     driver.get("https://www.upperdeckepack.com/Registration")
-    print("captcha")
-    captca_del = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[5]/button"))).click()
-    print("captcha получилось")
+    # print("captcha")
+    # captca_del = WebDriverWait(driver, 10).until(
+    #     EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[5]/button"))).click()
+    # print("captcha получилось")
     elem1 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[1]/div/input").send_keys(first_name)
     elem2 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[2]/div/input").send_keys(second_name)
     elem3 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[5]/div/input").send_keys(email)
@@ -119,10 +119,14 @@ def open_pack():
                 elem13 = WebDriverWait(driver, 10).until(
                     EC.element_to_be_clickable((By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/a"))).click()
                 time.sleep(2)
-                elem14 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(
-                    (By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[3]/a/span"))).click()
+                # выбор самого пака
+                elem_ud22_23 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(
+                    (By.XPATH, "/html/body/div[3]/div/div[4]/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[1]/a/span"))).click()
                 time.sleep(5)
-                elem15 = driver.find_element(By.XPATH, "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button").click()
+                elem15 = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH,  "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button"))).click()
+                elem_open = WebDriverWait(driver, 15).until(
+                    EC.element_to_be_clickable((By.XPATH,  "//html/body/div[3]/div/div[4]/div/div/div/div/div[1]/div[2]/div[1]/button"))).click()
                 time.sleep(10)
                 res_open_pack = open_pack2()
                 if res_open_pack == "ok":
@@ -156,17 +160,18 @@ def send_cards():
                                          "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[1]/div[2]/a/img").click()
             time.sleep(7)
             elem19 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
-                                                                                 "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+                                                                                 "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
             time.sleep(3)
             elem21 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
-                                                                                 "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+                                                                                 "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[3]/div/div[3]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
             elem22 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
-                                                                                 "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[3]/div/div[4]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+                                                                                 "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[3]/div/div[4]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
 
-            elem23 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"review-trade\"]/a")))).click()
-            elem23_5 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "//*[@id=\"submit-trade\"]")))).click()
-            elem23_9 = WebDriverWait(driver, 15).until(
-                EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
+            elem23 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[3]/div/div[1]/button")))).click()
+            time.sleep(3)
+            elem23_5 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
+            # elem23_9 = WebDriverWait(driver, 15).until(
+            #     EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
             # page = driver.page_source
             # soup = BS(page, features="html.parser")
             # text1 = soup.find("div", class_="modal-content")
@@ -181,8 +186,6 @@ def send_cards():
             time.sleep(15)
             soup1 = BS(driver.page_source, features="html.parser")
             text1 = soup1.find_all("div", class_="highlight-count count-text")
-            print(text1)
-
             l_res = []
             for i in text1:
                 number_trades = i.text
