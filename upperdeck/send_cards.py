@@ -90,6 +90,9 @@ def rega_final():
         except:
             Error_rega += 1
             print("Завершилось ошибкой", Error_rega)
+            if Error_rega >= 50:
+                driver.close()
+                driver.quit()
 
 
 def open_pack2():
@@ -206,10 +209,54 @@ def send_cards():
 
 
 
+
+def logging_accept(login, psw):
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.get("https://www.upperdeckepack.com/Trading/Received")
+    login = "gane.simonov.81@list.ru"
+    psw = "Topless81"
+    login_input = driver.find_element(By.XPATH,
+                                      "/html/body/div[4]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input").send_keys(
+        login)
+    psw_input = driver.find_element(By.XPATH,
+                                    "/html/body/div[4]/div/div/div/div[2]/div/form/div[2]/div[2]/div/input").send_keys(
+        psw)
+    sign_in = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable(((By.XPATH, "/html/body/div[4]/div/div/div/div[2]/div/form/div[3]/button")))).click()
+
+    try_accept_trade = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
+        ((By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div/div/div[2]/div[3]/a/div[5]")))).click()
+    press_accept = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
+        ((By.XPATH, "/html/body/div[3]/div/div[4]/div/div[1]/div/div[4]/div/div/div[1]/button")))).click()
+    accept_accept = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
+    time.sleep(2)
+    driver.get("https://www.upperdeckepack.com/Dashboard")
+    time.sleep(3)
+    soup1 = BS(driver.page_source, features="html.parser")
+    text1 = soup1.find_all("div", class_="highlight-count count-text")
+    l_res = []
+    for i in text1:
+        number_trades = i.text
+        l_res.append(number_trades)
+    res = l_res[3].replace(" Trades Received", "")
+    res = int(res)
+    if res == 0:
+        print("Trade accepted by pdsdosoaaa")
+        driver.close()
+        driver.quit()
+
+
 driver = webdriver.Chrome()
 driver.maximize_window()
 
 rega_final()
 open_pack()
 send_cards()
+with open("psw.txt", "r", encoding="utf-8") as file:
+    slovo_test = file.readlines()
+    login = slovo_test[0].replace("\n", "")
+    psw = slovo_test[1].replace("\n", "")
+logging_accept(login, psw)
 print("script done")
