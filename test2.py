@@ -10,3 +10,6 @@
 # headers = {
 #
 # }
+i = "qwertyuiop"
+g = reversed(i)
+print(str(g))

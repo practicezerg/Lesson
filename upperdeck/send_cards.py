@@ -33,27 +33,23 @@ def info_for_rega():
 def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, BirthYear):
 
     driver.get("https://www.upperdeckepack.com/Registration")
-    # print("captcha")
-    # captca_del = WebDriverWait(driver, 10).until(
-    #     EC.element_to_be_clickable((By.XPATH, "//*[@id=\"react-app\"]/div/div[5]/button"))).click()
-    # print("captcha получилось")
-    elem1 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[1]/div/input").send_keys(first_name)
-    elem2 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[4]/div[2]/div/input").send_keys(second_name)
-    elem3 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[5]/div/input").send_keys(email)
-    elem4 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[6]/div/select").send_keys("US")
+    elem1 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[3]/div[1]/div/input").send_keys(first_name)
+    elem2 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[3]/div[2]/div/input").send_keys(second_name)
+    elem3 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[4]/div/input").send_keys(email)
+    elem4 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[5]/div/select").send_keys("US")
+    elem6 = driver.find_element(By.XPATH,
+                                "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[6]/div/input").send_keys(username)
+    elem7 = driver.find_element(By.XPATH,
+                                "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[8]/div[1]/div/input").send_keys(
+        psw)
+    elem8 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[8]/div[2]/div/input").send_keys(psw)
+    elem_iagree = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/label/input").click()
+    elem_byclick = driver.find_element(By.XPATH,"/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").click()
+    elem_byclick = driver.find_element(By.XPATH,
+                                       "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").send_keys(Keys.PAGE_DOWN)
     time.sleep(2)
-    elem5 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[8]/div[1]/div/select").send_keys("December")
-    elem5 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[8]/div[2]/div/select").send_keys(BirthDay)
-    elem5 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[8]/div[3]/div/select").send_keys(BirthYear)
-    elem6 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[9]/div/input").send_keys(username)
-    elem7 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[11]/div[1]/div/input").send_keys(psw)
-    elem8 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[11]/div[2]/div/input")
-    elem8.send_keys(psw)
-    elem8.send_keys(Keys.PAGE_DOWN)
-    elem9 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[13]/label/input").click()
-    time.sleep(1)
-    elem10 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div[1]/form/div[16]/button").click()
-    time.sleep(3)
+    elem_button_create_accpount = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[13]/button").click()
+    time.sleep(2)
     try:
         elem11 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div/div[2]/div[1]/div[1]/span/div")
         return "ok"
@@ -216,6 +212,7 @@ def logging_accept(login, psw):
     driver.get("https://www.upperdeckepack.com/Trading/Received")
     login = "gane.simonov.81@list.ru"
     psw = "Topless81"
+    time.sleep(2)
     login_input = driver.find_element(By.XPATH,
                                       "/html/body/div[4]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input").send_keys(
         login)
