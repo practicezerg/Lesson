@@ -33,6 +33,7 @@ def info_for_rega():
 def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, BirthYear):
 
     driver.get("https://www.upperdeckepack.com/Registration")
+    time.sleep(2)
     elem1 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[3]/div[1]/div/input").send_keys(first_name)
     elem2 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[3]/div[2]/div/input").send_keys(second_name)
     elem3 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[4]/div/input").send_keys(email)
@@ -47,10 +48,11 @@ def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, Bi
     elem_byclick = driver.find_element(By.XPATH,"/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").click()
     elem_byclick = driver.find_element(By.XPATH,
                                        "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").send_keys(Keys.PAGE_DOWN)
-    time.sleep(2)
+    time.sleep(3)
     elem_button_create_accpount = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[13]/button").click()
-    time.sleep(2)
+    time.sleep(3)
     try:
+        time.sleep(2)
         elem11 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div/div[2]/div[1]/div[1]/span/div")
         return "ok"
     except:
@@ -86,7 +88,7 @@ def rega_final():
         except:
             Error_rega += 1
             print("Завершилось ошибкой", Error_rega)
-            if Error_rega >= 50:
+            if Error_rega >= 10:
                 driver.close()
                 driver.quit()
 
@@ -206,7 +208,11 @@ def send_cards():
 
 
 
-def logging_accept(login, psw):
+def logging_accept():
+    with open("psw.txt", "r", encoding="utf-8") as file:
+        slovo_test = file.readlines()
+        login = slovo_test[0].replace("\n", "")
+        psw = slovo_test[1].replace("\n", "")
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get("https://www.upperdeckepack.com/Trading/Received")
@@ -244,16 +250,19 @@ def logging_accept(login, psw):
         driver.close()
         driver.quit()
 
+def main():
+    rega_final()
+    open_pack()
+    send_cards()
+    # with open("psw.txt", "r", encoding="utf-8") as file:
+    #     slovo_test = file.readlines()
+    #     login = slovo_test[0].replace("\n", "")
+    #     psw = slovo_test[1].replace("\n", "")
+    logging_accept()
+    print("script done")
 
-driver = webdriver.Chrome()
-driver.maximize_window()
-
-rega_final()
-open_pack()
-send_cards()
-with open("psw.txt", "r", encoding="utf-8") as file:
-    slovo_test = file.readlines()
-    login = slovo_test[0].replace("\n", "")
-    psw = slovo_test[1].replace("\n", "")
-logging_accept(login, psw)
-print("script done")
+loop = 5
+while loop >=4:
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    main()
