@@ -40,3 +40,9 @@ s19 = "ba"
 print(s19.isalpha())  # проверка на букву
 s20 = "fffffff34433.112"
 print(s20.lstrip("f34."))
+s21 = "\tnasdasda\n\n\t"
+print(s21)
+print(s21.strip()) #убирает все табуляции и подобные вещи
+num = 5
+s22 = f'Start\t{num+12:15}{num+5:10}{num+1:5}\nStart\t{num+5:15}{num+7:10}{num+2:5}'
+print(s22)
