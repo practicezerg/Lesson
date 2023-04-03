@@ -1,15 +1,16 @@
-# param = {
-#     "email": login,
-#     "password": password,
-#     "rememberMe": "true",
-#     "twoFactorCode": "",
-#     "site": "https://www.upperdeckepack.com/",
-#     "platform": "ePack"
-# }
-# print(param)
-# headers = {
-#
-# }
-i = "qwertyuiop"
-g = reversed(i)
-print(str(g))
+"""
+1. На странице https://ru.investing.com/equities/ переходим в раздел "Статистика"
+2.  В этом разделе нужны данные из столбцов: "Название", "1 месяц",  "YTD, 1 год", "3 года"
+3. Данные в виде таблицы должны загружаться в конкретный файл Excel (Название файла и путь к файлу можно указать), на Лист "Статистика".
+4. Данные должны обновляться из Excel при клике на "Обновить все" или "Обновить"
+"""
+
+from bs4 import BeautifulSoup as BS
+import requests
+
+
+ulr = "https://ru.investing.com/equities/"
+data = {}
+headers = {
+
+}
