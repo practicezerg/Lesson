@@ -144,7 +144,6 @@ def open_pack():
                 driver.close()
                 driver.quit()
 
-
 def send_cards():
     n = 1
     while n > 0:
@@ -204,9 +203,6 @@ def send_cards():
         except Exception as e:
             print(e)
             print("erorr with send")
-
-
-
 
 def logging_accept():
     with open("psw.txt", "r", encoding="utf-8") as file:
