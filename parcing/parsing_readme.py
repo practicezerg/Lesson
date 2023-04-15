@@ -49,10 +49,10 @@ for i in links:
 
     test_for_json[item_text] = url2
 
-    with open("fail.json", "w") as file:
-        json.dump(test_for_json, file, indent=4, ensure_ascii=False)
-        """indent параметр отступа в файле - если убрать будет все в одну строку"""
-        """ensure)ascii - снимает проблемы с кодировкой"""
+with open("fail.json", "w") as file:
+    json.dump(test_for_json, file, indent=4, ensure_ascii=False)
+    """indent параметр отступа в файле - если убрать будет все в одну строку"""
+    """ensure)ascii - снимает проблемы с кодировкой"""
 
 # по структуре снизу верх find_parent()  find_parents()
 

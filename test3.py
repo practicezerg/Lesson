@@ -1,1 +1,0 @@
-"""<span class="h2h__result"><span>2</span><span>4</span></span>"""
