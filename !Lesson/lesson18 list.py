@@ -1,5 +1,8 @@
 a = [12, 38.45, "wait", -4, "Alex", 12]
 my_list = ["test", "job", "relax", "python", "boobs",14, 44,]
+string = "rareair collectibles"
+l_15 = list(string)
+print(l_15, "Можно передать сразу в лист строку и он бахнет сплит")
 print(a)
 print(my_list)
 print(a[2])

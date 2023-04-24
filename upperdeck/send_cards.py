@@ -50,7 +50,7 @@ def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, Bi
                                        "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").send_keys(Keys.PAGE_DOWN)
     time.sleep(3)
     elem_button_create_accpount = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[13]/button").click()
-    time.sleep(3)
+    time.sleep(10)
     try:
         time.sleep(2)
         elem11 = driver.find_element(By.XPATH, "//*[@id=\"react-app\"]/div/div[4]/div/div/div/div[2]/div[1]/div[1]/span/div")
@@ -224,7 +224,7 @@ def logging_accept():
     sign_in = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable(((By.XPATH, "/html/body/div[4]/div/div/div/div[2]/div/form/div[3]/button")))).click()
 
-    try_accept_trade = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
+    try_accept_trade = WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
         ((By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div/div/div[2]/div[3]/a/div[5]")))).click()
     press_accept = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
         ((By.XPATH, "/html/body/div[3]/div/div[4]/div/div[1]/div/div[4]/div/div/div[1]/button")))).click()
