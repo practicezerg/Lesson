@@ -48,10 +48,7 @@ else:
 
 
 
-def parse():
-    for URL in [
-        ""
-    ]:
+
 
 
 

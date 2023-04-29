@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup as BS
 
 def info_for_rega():
     random_string = '123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
-    psw = ''  # предварительно создаем переменную psw
+    psw = ''  # предварительно создаем переменную psw.py
     for x in range(18):
         psw = psw + random.choice(list(random_string))
     name = names.get_full_name().split()

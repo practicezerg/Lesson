@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup as BS
 
 def info_for_rega():
     random_string = '123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
-    psw = ''  # предварительно создаем переменную psw
+    psw = ''  # предварительно создаем переменную psw.py
     for x in range(18):
         psw = psw + random.choice(list(random_string))
     name = names.get_full_name().split()
@@ -250,10 +250,10 @@ def main():
     rega_final()
     open_pack()
     send_cards()
-    # with open("psw.txt", "r", encoding="utf-8") as file:
+    # with open("psw.py.txt", "r", encoding="utf-8") as file:
     #     slovo_test = file.readlines()
     #     login = slovo_test[0].replace("\n", "")
-    #     psw = slovo_test[1].replace("\n", "")
+    #     psw.py = slovo_test[1].replace("\n", "")
     logging_accept()
     print("script done")
 

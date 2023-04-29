@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def registration():
     random_string = '123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
-    psw = ''  # предварительно создаем переменную psw
+    psw = ''  # предварительно создаем переменную psw.py
     for x in range(18):
         psw = psw + random.choice(list(random_string))
     name = names.get_full_name().split()

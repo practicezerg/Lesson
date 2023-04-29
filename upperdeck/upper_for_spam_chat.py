@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 
 
 def pass_txt():
-    open_file = open("../working/parcing/pass.txt", "r", encoding="utf-8")
+    open_file = open("../working/Complited/upperdeck/Check msg and offers/pass.txt", "r", encoding="utf-8")
     slovo_test = open_file.readlines()
     login = slovo_test[2].replace("\n", "")
     password = slovo_test[3].replace("\n", "")

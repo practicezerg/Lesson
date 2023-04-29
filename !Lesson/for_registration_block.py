@@ -1,11 +1,11 @@
-"""цель шаблонизировать и дергать от сюда данные которые нужны при всяких регистрациях"""
+"""Цель шаблонизировать и дергать от сюда данные которые нужны при всяких регистрациях"""
 import random
 import names
 
 def password():
     random_string = '123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
     random_string2 = '123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()_+'
-    psw = ''  # предварительно создаем переменную psw
+    psw = ''  # предварительно создаем переменную psw.py
     for x in range(18):
         psw = psw + random.choice(list(random_string))
         psw2 = psw + random.choice(list(random_string2))

@@ -1,3 +1,4 @@
+import string
 s = "Mama Mila ramy!"
 print(s[0])
 print(s[7:])
@@ -5,9 +6,10 @@ print(s[0:2])   # последний ограничитель среза не в
 print(s[::2])   #извелкается срез с шагом 2
 print(s[:2])
 print(s.split(" "))
+s1 = "Mama Mila ramy i okno poka ti spal"
+print(s1[::-1], "[start:stop:step]")
 s = s[0:-1] + " i okno!"
 print(s)
-s1 = "Mama Mila ramy i okno poka ti spal"
 s51 = (s1.split())
 print(s1.split(), "/// для позиционки")
 print(s1.split("o"))
@@ -57,3 +59,8 @@ s5151 = "=f02= =werwdsf[]="
 print(s5151.strip("="), "//// подрезает в начале и конце строки")
 print(s1.isalnum() , "Метод isalnum() возвращает True, если все символы в строке являются буквенно-цифровыми (либо алфавитами, либо цифрами). Если нет, возвращается False.")
 print(s2.isalnum())
+print(string.ascii_uppercase, "//// Все большие буквы алфавита")
+print(string.ascii_letters,"//// Все буквы")
+print(string.ascii_lowercase,"//// Все маленькие буквы")
+print(string.digits, "//// пвсе цифры")
+print(string.printable , "//// всю клавиатуру")

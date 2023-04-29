@@ -9,7 +9,7 @@ import names
 
 def registration():
     random_string = '123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
-    psw = ''  # предварительно создаем переменную psw
+    psw = ''  # предварительно создаем переменную psw.py
     for x in range(18):
         psw = psw + random.choice(list(random_string))
     name = names.get_full_name().split()
@@ -32,7 +32,7 @@ BirthYear = random.randint(1975,2003)
 # print(BirthYear, "BirthYear")
 # print(first_name)
 # print(second_name)
-# print(psw)
+# print(psw.py)
 # print(email)
 # print(username)
 confirm_psw = psw
