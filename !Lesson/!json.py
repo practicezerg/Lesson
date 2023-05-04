@@ -11,3 +11,7 @@ for i in req["results"]:
     print(i["name"])
 
 
+with open('data.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+pprint(data)

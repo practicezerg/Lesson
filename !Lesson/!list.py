@@ -35,3 +35,6 @@ print(a.count(12), "count ведет подсчет в листе сколько
 print(a.index(-4), "возвращает индекс элемента")
 a.extend(b)
 print(a, "метод extend объединяет 2 списка в один")
+for indextyt, positionlisttyt in enumerate(b):
+    print(indextyt, positionlisttyt, "выдает индекс объекта и сам объект")
+    break
