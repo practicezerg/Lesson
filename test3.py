@@ -5,20 +5,7 @@
 # test = re.search('(https?://)?(www\d?\.)?(?P<name>[\w-]+)\.', s).group('name')
 # print(test)
 
-def format_duration(seconds):
-    words = ["year", "day", "hour", "minute", "second"]
-
-    if not seconds:
-        return "now"
-    else:
-        m, s = divmod(seconds, 60)
-        h, m = divmod(m, 60)
-        d, h = divmod(h, 24)
-        y, d = divmod(d, 365)
-
-        time = [y, d, h, m, s]
-    print(time)
-
-
-seconds = 145151
-format_duration(seconds)
+data = {'ID': 3195778, 'RegionCode': '36', 'Region': 'Воронежская', 'DistrictCode': '21B04D8B-D97C-4034-AD25-28F64CF387BD', 'District': 'город Воронеж', 'PlaceCode': '5BF5DDFF-6353-4A3D-80C4-6FB27F00C6C1', 'Place': 'г. Воронеж', 'StreetHome': 'ул. Калинина 22 а ', 'ScheduledTimeRemoval': '2023-05-05T17:50:00', 'ScaleShutdown': 'не знаю', 'StatusRequest': 'принято', 'Created': '2023-05-05T12:48:00', 'Modified': '2023-05-05T12:51:53.693', 'RejectionReasonTitle': ''}
+print(type(data))
+if isinstance(data, dict):
+    print("YES")
