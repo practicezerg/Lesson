@@ -1,9 +1,10 @@
 import requests
+from fake_useragent import UserAgent
 
 url = "http://httpbin.org/"
 
-req = requests.get(url)
-print(req)
+# req = requests.get(url)
+# print(req)
 """
 Вместе в url в request можно передовать 
 params = Словарь или байты, которые будут отправлены в строке запроса
@@ -16,3 +17,7 @@ proxies = Протокол сопоставления словаря с URL-ад
 stream = Удерживает соединение открытым, пока не получен весь Response.content
 """
 
+# Для большого потока запросов есть смысл создавать фейковый юзерагент import fake_useragent
+
+useragent = UserAgent()
+print(useragent.random)   #Функция рандом эт не стандартный рандом, а часть fake_useragent

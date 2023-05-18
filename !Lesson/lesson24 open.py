@@ -22,7 +22,10 @@ print(gg1.write("test"))
 print(gg1.writelines(list))
 gg1.close()   # лучше закрывать файл послеработы что бы освободить память
 gg.close()
-open(file, 'w+', encoding='utf-8', errors='ignore')  # игнорирование ошибки
+open('file.txt', 'w+', encoding='utf-8', errors='ignore')  # игнорирование ошибки
 with open('log.txt', 'a', encoding='utf-8') as file:
-    string = f" {time2} Клиенту на свитче {sw} на {port_input} порту был применен тариф {tariff}\n"
+    string = f"Клиенту на свитче  на  порту был применен тариф \n"
     file.write(string)
+with open('r1.txt') as src, open('result.txt', 'w') as dest: # открытие 2 файлов одновременно
+    print("!")
+    # src.seek(0)   обозначает переход на начало фалй так как задан 0

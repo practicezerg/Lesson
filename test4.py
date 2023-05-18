@@ -1,17 +1,17 @@
-def cellsInRange(s) :
-    leftLetter = s.split(':')[0][0]
-    leftDigit = int(s.split(':')[0][1])
-    rightLetter = s.split(':')[1][0]
-    rightDigit = int(s.split(':')[1][1])
-    rowNumber = rightDigit - leftDigit + 1
-    columnNumber = ord(rightLetter) - ord(leftLetter) + 1
-    res = []
-    for i in range(columnNumber):
-        for j in range(rowNumber):
-            res.append(chr(ord(leftLetter) + i) + str(leftDigit + j))
-    return res
+def updateSubrectangle(row1, col1, row2, col2, newValue):
+    for i in range(row1, row2 + 1):
+        for j in range(col1, col2 + 1):
+            rectangle[i][j] = newValue
 
 
-s = "U7:X9"
-res = cellsInRange(s)
+
+rectangle = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+row1 = 1
+col1 = 1
+row2 = 2
+col2 = 1
+newValue = 5
+
+res = updateSubrectangle(0, 0, 1, 1, 10)
 print(res)

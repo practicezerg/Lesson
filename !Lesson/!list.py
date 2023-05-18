@@ -38,3 +38,18 @@ print(a, "метод extend объединяет 2 списка в один")
 for indextyt, positionlisttyt in enumerate(b):
     print(indextyt, positionlisttyt, "выдает индекс объекта и сам объект")
     break
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ag24gsssd = [['петя',10,130,35], ['вася',11,135,39],
+['женя',9,140,33],['дима',10,128,30]]
+
+n = input('Сортировать по имени (1), возрасту (2), росту (3), весу (4): ')
+n = int(n)-1
+
+def sort_col(i):
+    return i[n]
+
+ag24gsssd.sort(key=sort_col)
+
+for i in a:
+    print("%7s %3d %4d %3d" % (i[0],i[1],i[2],i[3]))
