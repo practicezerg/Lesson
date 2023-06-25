@@ -81,3 +81,92 @@ print("*"*100)
 #         print(href)
 print("Парсинг из кучи сcылок нужную")
 print("*"*100)
+
+req = requests.get("https://parsinger.ru/html/index1_page_1.html")
+req.encoding = "utf-8"
+soup = BS(req.text, features="html.parser")
+price = soup.find("div", class_="item_card").find_all("p", class_="price")
+for i in price:
+    num = int(i.text.replace(" руб", ""))
+    print(num)
+
+print("Парсинг из под класса")
+print("*"*100)
+
+req = requests.get("https://parsinger.ru/html/hdd/4/4_1.html")
+req.encoding = "utf-8"
+soup = BS(req.text, features="html.parser")
+price = soup.find("span", {"id":"price"}).text.replace(" руб", "")
+full_price = soup.find("span", {"id":"old_price"}).text.replace(" руб", "")
+anwer = (int(full_price) - int(price))*100/int(full_price)
+print(anwer)
+print("Парсинг цена и вычетание процента")
+print("*"*100)
+
+req = requests.get("https://parsinger.ru/html/index1_page_1.html")
+main_link = "https://parsinger.ru/html/"
+req.encoding = "utf-8"
+soup = BS(req.text, features="html.parser")
+pages = soup.find("div", class_="pagen").find_all("a")
+#Что бы узнать всего страниц на сайте
+num_pages = [link.text for link in soup.find("div", class_="pagen").find_all("a")][-1]
+print(num_pages, "Количество страниц")
+links = [link.get("href") for link in pages]
+print(links)
+pagen = [link["href"] for link in soup.find("div", class_="pagen").find_all("a")]
+print(pagen)
+final_links = [f'{main_link}{link["href"]}' for link in soup.find("div", class_="pagen").find_all("a")]
+print(final_links)
+
+print("Парсинг пагинация и извлечение href и как узнать количество страниц")
+print("*"*100)
+
+req = requests.get("https://parsinger.ru/html/index3_page_1.html")
+main_link = "https://parsinger.ru/html/"
+req.encoding = "utf-8"
+soup = BS(req.text, features="html.parser")
+num_pages =[link.text for link in soup.find("div", class_="pagen").find_all("a")][-1]
+full_names = []
+for page in range(1,int(num_pages)+1):
+    req = requests.get(f'https://parsinger.ru/html/index3_page_{page}.html')
+    req.encoding = "utf-8"
+    soup = BS(req.text, features="html.parser")
+    # name_item = soup.find_all("a", class_="name_item")
+    name_item = [name.text for name in soup.find_all("a", class_="name_item")]
+    full_names.append(name_item)
+print(full_names)
+
+print("Извлечение названия товара со всех 4 страниц")
+print("*"*100)
+
+links = [f'https://parsinger.ru/html/mouse/3/3_{num_page}.html' for num_page in range(1, 33)]
+arts =[]
+for link in links:
+    req = requests.get(link)
+    req.encoding="utf-8"
+    soup = BS(req.text, features="html.parser")
+    art = soup.find("p", class_="article").text.split()[-1]
+    arts.append(art)
+print(arts)
+
+print("Извлечение артикула из каждой карточки товара")
+print("*"*100)
+
+headers = {
+    'user-agent': useragent,
+    'x-requested-with': 'XMLHttpRequest',
+}
+responce = requests.get(url, headers=headers).json()
+
+#В панели разработчика в закладке сеть - Fetch/XHR - ищем сылку  в заголовках  x-requested-with': 'XMLHttpRequest
+#в ответ он отдает формат json
+#в некоторых случаяш нужно отсыдать попутно дату data
+data = {
+    "some info"
+}
+
+print("AJAX и эмуляция его")
+print("*"*100)
+
+print("Извлечение артикула из каждой карточки товара")
+print("*"*100)
