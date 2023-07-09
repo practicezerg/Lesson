@@ -26,6 +26,7 @@ def info_for_rega():
     BirthDay = random.randint(1, 29)
     BirthMonth = random.randint(1, 12)
     BirthYear = random.randint(1975, 2003)
+    print("debug ~ info_for_rega() done")
 
     return first_name, second_name, psw, email, username, BirthDay, BirthMonth, BirthYear
 
@@ -34,22 +35,22 @@ def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, Bi
 
     driver.get("https://www.upperdeckepack.com/Registration")
     time.sleep(2)
-    elem1 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[3]/div[1]/div/input").send_keys(first_name)
-    elem2 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[3]/div[2]/div/input").send_keys(second_name)
-    elem3 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[4]/div/input").send_keys(email)
-    elem4 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[5]/div/select").send_keys("US")
-    elem6 = driver.find_element(By.XPATH,
-                                "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[6]/div/input").send_keys(username)
-    elem7 = driver.find_element(By.XPATH,
-                                "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[8]/div[1]/div/input").send_keys(
+    elem_first_name = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[3]/div[1]/div/input").send_keys(first_name)
+    elem_last_name = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[3]/div[2]/div/input").send_keys(second_name)
+    elem_email = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[4]/div/input").send_keys(email)
+    elem_country = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[5]/div/select").send_keys("US")
+    elem_username = driver.find_element(By.XPATH,
+                                "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[6]/div/input").send_keys(username)
+    elem_psw = driver.find_element(By.XPATH,
+                                "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[8]/div[1]/div/input").send_keys(
         psw)
-    elem8 = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[8]/div[2]/div/input").send_keys(psw)
-    elem_iagree = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/label/input").click()
-    elem_byclick = driver.find_element(By.XPATH,"/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").click()
+    elem_re_psw = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[8]/div[2]/div/input").send_keys(psw)
+    elem_iagree = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[10]/label/input").click()
+    elem_byclick = driver.find_element(By.XPATH,"/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").click()
     elem_byclick = driver.find_element(By.XPATH,
-                                       "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").send_keys(Keys.PAGE_DOWN)
+                                       "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[10]/div/label/input").send_keys(Keys.PAGE_DOWN)
     time.sleep(3)
-    elem_button_create_accpount = driver.find_element(By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div[1]/form/div[13]/button").click()
+    elem_button_create_accpount = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[13]/button").click()
     time.sleep(10)
     try:
         time.sleep(2)
@@ -57,6 +58,7 @@ def rega(first_name, second_name, psw, email, username, BirthDay, BirthMonth, Bi
         return "ok"
     except:
         return "err"
+    print("debug ~ rega() done")
 
 def write_data(email, psw):
     print("saved user+login")
@@ -67,6 +69,7 @@ def write_data(email, psw):
     with open('users.json', 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
     time.sleep(2)
+    print("debug ~ write_data() done")
 
 
 def rega_final():
@@ -91,6 +94,7 @@ def rega_final():
             if Error_rega >= 10:
                 driver.close()
                 driver.quit()
+    print("debug ~ rega final() done")
 
 
 def open_pack2():
@@ -103,6 +107,7 @@ def open_pack2():
         return "Error"
     else:
         return "ok"
+    print("debug ~ open pack2() done")
 
 def open_pack():
     n = 1
@@ -122,12 +127,12 @@ def open_pack():
                 time.sleep(2)
                 # выбор самого пака
                 elem_ud22_23 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(
-                    (By.XPATH, "/html/body/div[3]/div/div[4]/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[1]/a/span"))).click()
+                    (By.XPATH, "/html/body/div[1]/div/div[4]/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[3]/div[1]/div[1]/div/div/div[2]/a/span"))).click()
                 time.sleep(5)
                 elem15 = WebDriverWait(driver, 10).until(
                     EC.element_to_be_clickable((By.XPATH,  "//*[@id=\"Featured\"]/div/div[1]/div[3]/div[2]/button"))).click()
                 elem_open = WebDriverWait(driver, 15).until(
-                    EC.element_to_be_clickable((By.XPATH,  "//html/body/div[3]/div/div[4]/div/div/div/div/div[1]/div[2]/div[1]/button"))).click()
+                    EC.element_to_be_clickable((By.XPATH,  "//html/body/div[1]/div/div[4]/div/div/div/div/div[1]/div[2]/div[1]/button"))).click()
                 time.sleep(10)
                 res_open_pack = open_pack2()
                 if res_open_pack == "ok":
@@ -137,12 +142,14 @@ def open_pack():
                     print("No Cards")
             else:
                 n = n - 1
+
         except:
             print("Error with open pack")
             error_pack += 1
             if error_pack > 5:
                 driver.close()
                 driver.quit()
+    print("debug ~ open pack() done")
 
 def send_cards():
     n = 1
@@ -160,16 +167,16 @@ def send_cards():
                                          "//*[@id=\"react-app\"]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[1]/div[2]/a/img").click()
             time.sleep(7)
             elem19 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
-                                                                                 "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+                                                                                 "/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
             time.sleep(3)
-            elem21 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
-                                                                                 "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[3]/div/div[3]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
-            elem22 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
-                                                                                 "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[3]/div/div[4]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+            elem_select_1_card = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
+                                                                                 "/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[3]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
+            elem_select_2_card = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
+                                                                                 "/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[4]/div[1]/div[2]/div/div[3]/div/a/i"))).click()
 
-            elem23 = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "/html/body/div[3]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[3]/div/div[1]/button")))).click()
+            elem_select_3_card = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(((By.XPATH, "/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[1]/div[1]/div[2]/div[3]/div/div[1]/button")))).click()
             time.sleep(3)
-            elem23_5 = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
+            elem_accept_trade_confirm = WebDriverWait(driver, 15).until(EC.element_to_be_clickable(((By.XPATH, "/html/body/div[3]/div/div/div/div[3]/div/button[1]")))).click()
             # elem23_9 = WebDriverWait(driver, 15).until(
             #     EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
             # page = driver.page_source
@@ -200,9 +207,13 @@ def send_cards():
 
 
 
+
+
         except Exception as e:
             print(e)
             print("erorr with send")
+
+    print("debug ~ open pack() done")
 
 def logging_accept():
     with open("psw.txt", "r", encoding="utf-8") as file:
@@ -216,20 +227,20 @@ def logging_accept():
     psw = "Topless81"
     time.sleep(2)
     login_input = driver.find_element(By.XPATH,
-                                      "/html/body/div[4]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input").send_keys(
+                                      "/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input").send_keys(
         login)
     psw_input = driver.find_element(By.XPATH,
-                                    "/html/body/div[4]/div/div/div/div[2]/div/form/div[2]/div[2]/div/input").send_keys(
+                                    "/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div[2]/div/input").send_keys(
         psw)
     sign_in = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable(((By.XPATH, "/html/body/div[4]/div/div/div/div[2]/div/form/div[3]/button")))).click()
+        EC.element_to_be_clickable(((By.XPATH, "/html/body/div[2]/div/div/div/div[2]/div/form/div[3]/button")))).click()
 
     try_accept_trade = WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
-        ((By.XPATH, "/html/body/div[3]/div/div[4]/div/div/div/div/div[2]/div[3]/a/div[5]")))).click()
+        ((By.XPATH, "/html/body/div[1]/div/div[4]/div/div/div/div/div[2]/div[3]/a/div[5]")))).click()
     press_accept = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
-        ((By.XPATH, "/html/body/div[3]/div/div[4]/div/div[1]/div/div[4]/div/div/div[1]/button")))).click()
+        ((By.XPATH, "/html/body/div[1]/div/div[4]/div/div[1]/div/div[4]/div/div/div[1]/button")))).click()
     accept_accept = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable(((By.XPATH, "/html/body/div[7]/div/div/div/div[3]/div/button[1]")))).click()
+        EC.element_to_be_clickable(((By.XPATH, "/html/body/div[3]/div/div/div/div[3]/div/button[1]")))).click()
     time.sleep(2)
     driver.get("https://www.upperdeckepack.com/Dashboard")
     time.sleep(3)
@@ -245,6 +256,7 @@ def logging_accept():
         print("Trade accepted by pdsdosoaaa")
         driver.close()
         driver.quit()
+    print("debug ~ logging_accept() done")
 
 def main():
     rega_final()
