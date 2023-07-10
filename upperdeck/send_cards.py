@@ -205,10 +205,6 @@ def send_cards():
                     driver.quit()
                     break
 
-
-
-
-
         except Exception as e:
             print(e)
             print("erorr with send")
