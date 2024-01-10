@@ -66,7 +66,7 @@ seconds=$((res_time % 60))
 
 formatted_time=$(printf "%02d:%02d:%02d" $hours $minutes $seconds)
 
-printf "$date_for_log name_script	start $start_bash stop $end_bash duration $formatted_time\n" >> /home/iptv/log_for_cron.txt
+printf "$date_for_log     name_script	start $start_bash stop $end_bash duration $formatted_time\n" >> /home/iptv/log_for_cron.txt
 
 #send tg
 telegram_bot_token="token"
