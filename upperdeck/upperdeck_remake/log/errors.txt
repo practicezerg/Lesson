@@ -1,0 +1,3757 @@
+21-04-2024 02:46:26
+Полученные данные не совпадают или не удалось зарегестрироваться. Получили = [<span class="username">WestnCVEE</span>, <span class="username">WestnCVEE</span>], а должны были получить WestnCVEE
+21-04-2024 02:46:26
+reg_new_user() ошибка Expecting value: line 1 column 1 (char 0)
+21-04-2024 02:58:49
+reg_new_user() ошибка ResultSet object has no attribute 'text'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+21-04-2024 03:09:54
+reg_new_user() ошибка ResultSet object has no attribute 'text'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+21-04-2024 03:11:57
+Полученные данные не совпадают или не удалось зарегестрироваться. Получили = <span class="username">KoziolmxqnQ</span>, а должны были получить KoziolmxqnQ
+21-04-2024 03:14:40
+reg_new_user() ошибка 'WebDriver' object has no attribute 'wait_for_ready_state_complete'
+21-04-2024 04:07:08
+opening_pack(driver) ошибка Message: 
+ Element {/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[3]/div[1]/div/input} was not present after 20 seconds!
+
+21-04-2024 04:24:58
+opening_pack(driver) ошибка Message: 
+ Element {/html/body/div[1]/div/div[4]/div/div/div[1]/form/div[3]/div[1]/div/input} was not present after 20 seconds!
+
+21-04-2024 04:31:29
+opening_pack(driver) ошибка invalid literal for int() with base 10: ' (0)'
+21-04-2024 04:43:48
+opening_pack(driver) ошибка int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+21-04-2024 04:54:29
+opening_pack(driver) ошибка int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+21-04-2024 05:10:54
+opening_pack(driver) ошибка name 'num_cards' is not defined
+21-04-2024 05:19:54
+opening_pack(driver) ошибка name 'num_cards' is not defined
+21-04-2024 05:31:22
+opening_pack(driver) ошибка invalid literal for int() with base 10: '0 Items'
+21-04-2024 05:55:14
+send_cards(driver) 5 ошибок при попытке передать
+21-04-2024 05:55:14
+21-04-2024 05:55:14 Script accept_trade()  ошибка name 'Driver' is not defined 
+21-04-2024 06:04:44
+send_cards(driver) 5 ошибок при попытке передать
+21-04-2024 06:05:56
+21-04-2024 06:05:56 Script accept_trade()  ошибка name 'tg_msg_log' is not defined 
+21-04-2024 06:22:44
+send_cards(driver) 5 ошибок при попытке передать
+21-04-2024 06:24:30
+21-04-2024 06:24:30 Script accept_trade()  ошибка name 'tg_ms' is not defined 
+21-04-2024 06:29:01
+send_cards(driver) 5 ошибок при попытке передать
+21-04-2024 06:37:34
+send_cards(driver) ошибка Message: element click intercepted: Element <i class="ud ud-trade-add btn-add-color"></i> is not clickable at point (819, 564). Other element would receive the click: <div class="trade-side-button add">...</div>
+  (Session info: chrome-headless-shell=123.0.6312.122)
+Stacktrace:
+#0 0x55cbb8c98863 <unknown>
+#1 0x55cbb898e8c6 <unknown>
+#2 0x55cbb89e0233 <unknown>
+#3 0x55cbb89de14e <unknown>
+#4 0x55cbb89dbb27 <unknown>
+#5 0x55cbb89daed3 <unknown>
+#6 0x55cbb89ce507 <unknown>
+#7 0x55cbb89fb5a2 <unknown>
+#8 0x55cbb89cde98 <unknown>
+#9 0x55cbb89fb76e <unknown>
+#10 0x55cbb8a19c19 <unknown>
+#11 0x55cbb89fb343 <unknown>
+#12 0x55cbb89cc593 <unknown>
+#13 0x55cbb89ccf5e <unknown>
+#14 0x55cbb8c5c84b <unknown>
+#15 0x55cbb8c607a5 <unknown>
+#16 0x55cbb8c4a571 <unknown>
+#17 0x55cbb8c61332 <unknown>
+#18 0x55cbb8c2f87f <unknown>
+#19 0x55cbb8c87728 <unknown>
+#20 0x55cbb8c878fb <unknown>
+#21 0x55cbb8c979b4 <unknown>
+#22 0x7f3f1a9b2609 start_thread
+
+21-04-2024 06:38:29
+send_cards(driver) 5 ошибок при попытке передать
+21-04-2024 06:43:55
+send_cards(driver) 5 ошибок при попытке передать
+21-04-2024 11:01:08
+21-04-2024 11:01:08 Script upperdeck_forum_msg  ошибка Message: 
+ Element {/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input} was not present after 10 seconds!
+ 
+21-04-2024 16:17:00
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:18:14
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:19:28
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:20:42
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:21:55
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:23:09
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:24:23
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:25:37
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:26:51
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5636eebce863 <unknown>
+#1 0x5636ee8c48c6 <unknown>
+#2 0x5636ee90f618 <unknown>
+#3 0x5636ee90f6d1 <unknown>
+#4 0x5636ee952744 <unknown>
+#5 0x5636ee9315cd <unknown>
+#6 0x5636ee94fc19 <unknown>
+#7 0x5636ee931343 <unknown>
+#8 0x5636ee902593 <unknown>
+#9 0x5636ee902f5e <unknown>
+#10 0x5636eeb9284b <unknown>
+#11 0x5636eeb967a5 <unknown>
+#12 0x5636eeb80571 <unknown>
+#13 0x5636eeb97332 <unknown>
+#14 0x5636eeb6587f <unknown>
+#15 0x5636eebbd728 <unknown>
+#16 0x5636eebbd8fb <unknown>
+#17 0x5636eebcd9b4 <unknown>
+#18 0x7f53b03e0609 start_thread
+
+21-04-2024 16:31:58
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:33:19
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:34:40
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:36:01
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:37:22
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:38:44
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:40:05
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:41:26
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:42:47
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:44:08
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56212e24c863 <unknown>
+#1 0x56212df428c6 <unknown>
+#2 0x56212df8d618 <unknown>
+#3 0x56212df8d6d1 <unknown>
+#4 0x56212dfd0744 <unknown>
+#5 0x56212dfaf5cd <unknown>
+#6 0x56212dfcdc19 <unknown>
+#7 0x56212dfaf343 <unknown>
+#8 0x56212df80593 <unknown>
+#9 0x56212df80f5e <unknown>
+#10 0x56212e21084b <unknown>
+#11 0x56212e2147a5 <unknown>
+#12 0x56212e1fe571 <unknown>
+#13 0x56212e215332 <unknown>
+#14 0x56212e1e387f <unknown>
+#15 0x56212e23b728 <unknown>
+#16 0x56212e23b8fb <unknown>
+#17 0x56212e24b9b4 <unknown>
+#18 0x7f6d6b97d609 start_thread
+
+21-04-2024 16:49:11
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55a818ba0863 <unknown>
+#1 0x55a8188968c6 <unknown>
+#2 0x55a8188e1618 <unknown>
+#3 0x55a8188e16d1 <unknown>
+#4 0x55a818924744 <unknown>
+#5 0x55a8189035cd <unknown>
+#6 0x55a818921c19 <unknown>
+#7 0x55a818903343 <unknown>
+#8 0x55a8188d4593 <unknown>
+#9 0x55a8188d4f5e <unknown>
+#10 0x55a818b6484b <unknown>
+#11 0x55a818b687a5 <unknown>
+#12 0x55a818b52571 <unknown>
+#13 0x55a818b69332 <unknown>
+#14 0x55a818b3787f <unknown>
+#15 0x55a818b8f728 <unknown>
+#16 0x55a818b8f8fb <unknown>
+#17 0x55a818b9f9b4 <unknown>
+#18 0x7f8cbf110609 start_thread
+
+21-04-2024 16:50:27
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55a818ba0863 <unknown>
+#1 0x55a8188968c6 <unknown>
+#2 0x55a8188e1618 <unknown>
+#3 0x55a8188e16d1 <unknown>
+#4 0x55a818924744 <unknown>
+#5 0x55a8189035cd <unknown>
+#6 0x55a818921c19 <unknown>
+#7 0x55a818903343 <unknown>
+#8 0x55a8188d4593 <unknown>
+#9 0x55a8188d4f5e <unknown>
+#10 0x55a818b6484b <unknown>
+#11 0x55a818b687a5 <unknown>
+#12 0x55a818b52571 <unknown>
+#13 0x55a818b69332 <unknown>
+#14 0x55a818b3787f <unknown>
+#15 0x55a818b8f728 <unknown>
+#16 0x55a818b8f8fb <unknown>
+#17 0x55a818b9f9b4 <unknown>
+#18 0x7f8cbf110609 start_thread
+
+22-04-2024 02:43:26
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559d11417863 <unknown>
+#1 0x559d1110d8c6 <unknown>
+#2 0x559d11158618 <unknown>
+#3 0x559d111586d1 <unknown>
+#4 0x559d1119b744 <unknown>
+#5 0x559d1117a5cd <unknown>
+#6 0x559d11198c19 <unknown>
+#7 0x559d1117a343 <unknown>
+#8 0x559d1114b593 <unknown>
+#9 0x559d1114bf5e <unknown>
+#10 0x559d113db84b <unknown>
+#11 0x559d113df7a5 <unknown>
+#12 0x559d113c9571 <unknown>
+#13 0x559d113e0332 <unknown>
+#14 0x559d113ae87f <unknown>
+#15 0x559d11406728 <unknown>
+#16 0x559d114068fb <unknown>
+#17 0x559d114169b4 <unknown>
+#18 0x7f96ef567609 start_thread
+
+22-04-2024 02:44:42
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559d11417863 <unknown>
+#1 0x559d1110d8c6 <unknown>
+#2 0x559d11158618 <unknown>
+#3 0x559d111586d1 <unknown>
+#4 0x559d1119b744 <unknown>
+#5 0x559d1117a5cd <unknown>
+#6 0x559d11198c19 <unknown>
+#7 0x559d1117a343 <unknown>
+#8 0x559d1114b593 <unknown>
+#9 0x559d1114bf5e <unknown>
+#10 0x559d113db84b <unknown>
+#11 0x559d113df7a5 <unknown>
+#12 0x559d113c9571 <unknown>
+#13 0x559d113e0332 <unknown>
+#14 0x559d113ae87f <unknown>
+#15 0x559d11406728 <unknown>
+#16 0x559d114068fb <unknown>
+#17 0x559d114169b4 <unknown>
+#18 0x7f96ef567609 start_thread
+
+22-04-2024 02:45:58
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559d11417863 <unknown>
+#1 0x559d1110d8c6 <unknown>
+#2 0x559d11158618 <unknown>
+#3 0x559d111586d1 <unknown>
+#4 0x559d1119b744 <unknown>
+#5 0x559d1117a5cd <unknown>
+#6 0x559d11198c19 <unknown>
+#7 0x559d1117a343 <unknown>
+#8 0x559d1114b593 <unknown>
+#9 0x559d1114bf5e <unknown>
+#10 0x559d113db84b <unknown>
+#11 0x559d113df7a5 <unknown>
+#12 0x559d113c9571 <unknown>
+#13 0x559d113e0332 <unknown>
+#14 0x559d113ae87f <unknown>
+#15 0x559d11406728 <unknown>
+#16 0x559d114068fb <unknown>
+#17 0x559d114169b4 <unknown>
+#18 0x7f96ef567609 start_thread
+
+22-04-2024 02:47:14
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[1]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559d11417863 <unknown>
+#1 0x559d1110d8c6 <unknown>
+#2 0x559d11158618 <unknown>
+#3 0x559d111586d1 <unknown>
+#4 0x559d1119b744 <unknown>
+#5 0x559d1117a5cd <unknown>
+#6 0x559d11198c19 <unknown>
+#7 0x559d1117a343 <unknown>
+#8 0x559d1114b593 <unknown>
+#9 0x559d1114bf5e <unknown>
+#10 0x559d113db84b <unknown>
+#11 0x559d113df7a5 <unknown>
+#12 0x559d113c9571 <unknown>
+#13 0x559d113e0332 <unknown>
+#14 0x559d113ae87f <unknown>
+#15 0x559d11406728 <unknown>
+#16 0x559d114068fb <unknown>
+#17 0x559d114169b4 <unknown>
+#18 0x7f96ef567609 start_thread
+
+22-04-2024 02:58:25
+send_cards(driver) 5 ошибок при попытке передать
+22-04-2024 03:04:35
+send_cards(driver) 5 ошибок при попытке передать
+22-04-2024 03:10:16
+send_cards(driver) 5 ошибок при попытке передать
+22-04-2024 03:15:56
+send_cards(driver) 5 ошибок при попытке передать
+22-04-2024 03:21:35
+send_cards(driver) 5 ошибок при попытке передать
+22-04-2024 03:31:03
+send_cards(driver) done!
+22-04-2024 03:36:43
+send_cards(driver) done!
+22-04-2024 03:42:27
+send_cards(driver) done!
+22-04-2024 03:48:05
+send_cards(driver) done!
+22-04-2024 03:53:43
+send_cards(driver) done!
+22-04-2024 03:59:28
+send_cards(driver) done!
+22-04-2024 04:05:14
+send_cards(driver) done!
+22-04-2024 04:10:53
+send_cards(driver) done!
+22-04-2024 04:16:36
+send_cards(driver) done!
+22-04-2024 04:22:16
+send_cards(driver) done!
+22-04-2024 04:27:56
+send_cards(driver) done!
+22-04-2024 04:33:33
+send_cards(driver) done!
+22-04-2024 04:39:12
+send_cards(driver) done!
+22-04-2024 04:44:49
+send_cards(driver) done!
+22-04-2024 04:50:32
+send_cards(driver) done!
+22-04-2024 04:56:10
+send_cards(driver) done!
+22-04-2024 05:01:49
+send_cards(driver) done!
+22-04-2024 05:07:33
+send_cards(driver) done!
+22-04-2024 05:13:14
+send_cards(driver) done!
+22-04-2024 05:18:57
+send_cards(driver) done!
+22-04-2024 05:24:36
+send_cards(driver) done!
+22-04-2024 05:30:14
+send_cards(driver) done!
+22-04-2024 05:35:53
+send_cards(driver) done!
+22-04-2024 05:41:37
+send_cards(driver) done!
+22-04-2024 05:47:16
+send_cards(driver) done!
+22-04-2024 05:52:56
+send_cards(driver) done!
+22-04-2024 05:58:40
+send_cards(driver) done!
+22-04-2024 06:04:21
+send_cards(driver) done!
+22-04-2024 06:10:01
+send_cards(driver) done!
+22-04-2024 06:15:40
+send_cards(driver) done!
+22-04-2024 06:21:24
+send_cards(driver) done!
+22-04-2024 06:27:02
+send_cards(driver) done!
+22-04-2024 06:32:40
+send_cards(driver) done!
+22-04-2024 06:38:20
+send_cards(driver) done!
+22-04-2024 06:43:59
+send_cards(driver) done!
+22-04-2024 06:49:38
+send_cards(driver) done!
+22-04-2024 06:55:18
+send_cards(driver) done!
+22-04-2024 07:00:58
+send_cards(driver) done!
+22-04-2024 07:06:38
+send_cards(driver) done!
+22-04-2024 07:12:23
+send_cards(driver) done!
+22-04-2024 07:18:02
+send_cards(driver) done!
+22-04-2024 07:23:49
+send_cards(driver) done!
+22-04-2024 07:29:29
+send_cards(driver) done!
+22-04-2024 07:35:06
+send_cards(driver) done!
+22-04-2024 07:40:47
+send_cards(driver) done!
+22-04-2024 07:46:24
+send_cards(driver) done!
+22-04-2024 07:52:00
+send_cards(driver) done!
+22-04-2024 07:57:38
+send_cards(driver) done!
+22-04-2024 08:03:15
+send_cards(driver) done!
+22-04-2024 08:08:54
+send_cards(driver) done!
+22-04-2024 08:14:32
+send_cards(driver) done!
+22-04-2024 08:20:10
+send_cards(driver) done!
+22-04-2024 08:25:47
+send_cards(driver) done!
+22-04-2024 08:31:26
+send_cards(driver) done!
+22-04-2024 08:37:03
+send_cards(driver) done!
+22-04-2024 08:42:40
+send_cards(driver) done!
+22-04-2024 08:48:18
+send_cards(driver) done!
+22-04-2024 08:53:54
+send_cards(driver) done!
+22-04-2024 08:59:33
+send_cards(driver) done!
+22-04-2024 09:05:15
+send_cards(driver) done!
+22-04-2024 09:10:54
+send_cards(driver) done!
+22-04-2024 09:16:32
+send_cards(driver) done!
+22-04-2024 09:22:09
+send_cards(driver) done!
+22-04-2024 09:27:48
+send_cards(driver) done!
+22-04-2024 09:33:28
+send_cards(driver) done!
+22-04-2024 09:39:06
+send_cards(driver) done!
+22-04-2024 09:44:43
+send_cards(driver) done!
+22-04-2024 09:50:21
+send_cards(driver) done!
+22-04-2024 09:55:59
+send_cards(driver) done!
+22-04-2024 10:01:39
+send_cards(driver) done!
+22-04-2024 10:07:17
+send_cards(driver) done!
+22-04-2024 10:12:56
+send_cards(driver) done!
+22-04-2024 10:18:33
+send_cards(driver) done!
+22-04-2024 10:24:18
+send_cards(driver) done!
+22-04-2024 10:30:01
+send_cards(driver) done!
+22-04-2024 10:35:39
+send_cards(driver) done!
+22-04-2024 10:41:16
+send_cards(driver) done!
+22-04-2024 10:46:55
+send_cards(driver) done!
+22-04-2024 10:52:36
+send_cards(driver) done!
+22-04-2024 10:58:17
+send_cards(driver) done!
+22-04-2024 11:01:08
+22-04-2024 11:01:08 Script upperdeck_forum_msg  ошибка Message: 
+ Element {/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input} was not present after 10 seconds!
+ 
+22-04-2024 11:03:57
+send_cards(driver) done!
+22-04-2024 11:09:36
+send_cards(driver) done!
+22-04-2024 11:15:15
+send_cards(driver) done!
+22-04-2024 11:20:55
+send_cards(driver) done!
+22-04-2024 11:26:34
+send_cards(driver) done!
+22-04-2024 11:32:12
+send_cards(driver) done!
+22-04-2024 11:37:50
+send_cards(driver) done!
+22-04-2024 11:43:28
+send_cards(driver) done!
+22-04-2024 11:49:04
+send_cards(driver) done!
+22-04-2024 11:54:42
+send_cards(driver) done!
+22-04-2024 12:00:20
+send_cards(driver) done!
+22-04-2024 12:05:58
+send_cards(driver) done!
+22-04-2024 12:10:02
+opening_pack(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div/div/div/div[2]/div[1]/button"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:11:23
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:12:44
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:14:05
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:15:26
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:16:47
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:18:08
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:19:29
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:20:50
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:22:11
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:23:32
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:24:54
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:26:15
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:27:36
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:28:57
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:30:18
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:31:39
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:32:15
+send_cards(driver) ошибка Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14ef6e75 <unknown>
+#3 0x556f14ef8bce <unknown>
+#4 0x556f14ef8c5c <unknown>
+#5 0x556f14f3e4d5 <unknown>
+#6 0x556f14f3d5b9 <unknown>
+#7 0x556f14f31507 <unknown>
+#8 0x556f14f5e5a2 <unknown>
+#9 0x556f14f30e98 <unknown>
+#10 0x556f14f5e76e <unknown>
+#11 0x556f14f7cc19 <unknown>
+#12 0x556f14f5e343 <unknown>
+#13 0x556f14f2f593 <unknown>
+#14 0x556f14f2ff5e <unknown>
+#15 0x556f151bf84b <unknown>
+#16 0x556f151c37a5 <unknown>
+#17 0x556f151ad571 <unknown>
+#18 0x556f151c4332 <unknown>
+#19 0x556f1519287f <unknown>
+#20 0x556f151ea728 <unknown>
+#21 0x556f151ea8fb <unknown>
+#22 0x556f151fa9b4 <unknown>
+#23 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:33:35
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:34:56
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:36:18
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:37:39
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:39:00
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:40:21
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:41:42
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:43:03
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:44:25
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:45:46
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:47:07
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:48:28
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:49:49
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:51:10
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:52:31
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:53:52
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:55:13
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:56:34
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:57:55
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 12:59:18
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:00:39
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:02:00
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:03:21
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:04:42
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:06:03
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:07:24
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:08:45
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:10:06
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:11:27
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:12:48
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:14:09
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:15:30
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:16:51
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:17:33
+send_cards(driver) ошибка Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14ef6e75 <unknown>
+#3 0x556f14ef8bce <unknown>
+#4 0x556f14ef8c5c <unknown>
+#5 0x556f14f40986 <unknown>
+#6 0x556f14f3eb27 <unknown>
+#7 0x556f14f3ded3 <unknown>
+#8 0x556f14f31507 <unknown>
+#9 0x556f14f5e5a2 <unknown>
+#10 0x556f14f30e98 <unknown>
+#11 0x556f14f5e76e <unknown>
+#12 0x556f14f7cc19 <unknown>
+#13 0x556f14f5e343 <unknown>
+#14 0x556f14f2f593 <unknown>
+#15 0x556f14f2ff5e <unknown>
+#16 0x556f151bf84b <unknown>
+#17 0x556f151c37a5 <unknown>
+#18 0x556f151ad571 <unknown>
+#19 0x556f151c4332 <unknown>
+#20 0x556f1519287f <unknown>
+#21 0x556f151ea728 <unknown>
+#22 0x556f151ea8fb <unknown>
+#23 0x556f151fa9b4 <unknown>
+#24 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:18:54
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:20:15
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:21:36
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:22:57
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:24:18
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:25:39
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:27:00
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:28:21
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:29:42
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:31:03
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:32:24
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:33:45
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:35:06
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:36:27
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:37:48
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:39:09
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:40:30
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:41:51
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:42:27
+send_cards(driver) ошибка Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14ef6e75 <unknown>
+#3 0x556f14ef8bce <unknown>
+#4 0x556f14ef8c5c <unknown>
+#5 0x556f14f3e1c2 <unknown>
+#6 0x556f14f313a1 <unknown>
+#7 0x556f14f5e5a2 <unknown>
+#8 0x556f14f30e98 <unknown>
+#9 0x556f14f5e76e <unknown>
+#10 0x556f14f7cc19 <unknown>
+#11 0x556f14f5e343 <unknown>
+#12 0x556f14f2f593 <unknown>
+#13 0x556f14f2ff5e <unknown>
+#14 0x556f151bf84b <unknown>
+#15 0x556f151c37a5 <unknown>
+#16 0x556f151ad571 <unknown>
+#17 0x556f151c4332 <unknown>
+#18 0x556f1519287f <unknown>
+#19 0x556f151ea728 <unknown>
+#20 0x556f151ea8fb <unknown>
+#21 0x556f151fa9b4 <unknown>
+#22 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:43:48
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:44:24
+send_cards(driver) ошибка Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14ef6e75 <unknown>
+#3 0x556f14ef8bce <unknown>
+#4 0x556f14ef8c5c <unknown>
+#5 0x556f14f3e4d5 <unknown>
+#6 0x556f14f3d5b9 <unknown>
+#7 0x556f14f31507 <unknown>
+#8 0x556f14f5e5a2 <unknown>
+#9 0x556f14f30e98 <unknown>
+#10 0x556f14f5e76e <unknown>
+#11 0x556f14f7cc19 <unknown>
+#12 0x556f14f5e343 <unknown>
+#13 0x556f14f2f593 <unknown>
+#14 0x556f14f2ff5e <unknown>
+#15 0x556f151bf84b <unknown>
+#16 0x556f151c37a5 <unknown>
+#17 0x556f151ad571 <unknown>
+#18 0x556f151c4332 <unknown>
+#19 0x556f1519287f <unknown>
+#20 0x556f151ea728 <unknown>
+#21 0x556f151ea8fb <unknown>
+#22 0x556f151fa9b4 <unknown>
+#23 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:45:45
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:47:06
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:48:28
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:49:49
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:51:10
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:52:31
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:53:52
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:55:13
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:55:49
+send_cards(driver) ошибка Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14ef6e75 <unknown>
+#3 0x556f14ef8bce <unknown>
+#4 0x556f14ef8c5c <unknown>
+#5 0x556f14f40986 <unknown>
+#6 0x556f14f3eb27 <unknown>
+#7 0x556f14f3ded3 <unknown>
+#8 0x556f14f31507 <unknown>
+#9 0x556f14f5e5a2 <unknown>
+#10 0x556f14f30e98 <unknown>
+#11 0x556f14f5e76e <unknown>
+#12 0x556f14f7cc19 <unknown>
+#13 0x556f14f5e343 <unknown>
+#14 0x556f14f2f593 <unknown>
+#15 0x556f14f2ff5e <unknown>
+#16 0x556f151bf84b <unknown>
+#17 0x556f151c37a5 <unknown>
+#18 0x556f151ad571 <unknown>
+#19 0x556f151c4332 <unknown>
+#20 0x556f1519287f <unknown>
+#21 0x556f151ea728 <unknown>
+#22 0x556f151ea8fb <unknown>
+#23 0x556f151fa9b4 <unknown>
+#24 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:57:10
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:58:31
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 13:59:52
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:01:14
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:02:35
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:03:56
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:05:17
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:06:38
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:08:00
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:09:21
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:10:42
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:12:03
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:13:24
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:14:45
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:16:06
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:17:27
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:18:03
+send_cards(driver) ошибка Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14ef6e75 <unknown>
+#3 0x556f14ef8bce <unknown>
+#4 0x556f14ef8c5c <unknown>
+#5 0x556f14f3e4d5 <unknown>
+#6 0x556f14f3d5b9 <unknown>
+#7 0x556f14f31507 <unknown>
+#8 0x556f14f5e5a2 <unknown>
+#9 0x556f14f30e98 <unknown>
+#10 0x556f14f5e76e <unknown>
+#11 0x556f14f7cc19 <unknown>
+#12 0x556f14f5e343 <unknown>
+#13 0x556f14f2f593 <unknown>
+#14 0x556f14f2ff5e <unknown>
+#15 0x556f151bf84b <unknown>
+#16 0x556f151c37a5 <unknown>
+#17 0x556f151ad571 <unknown>
+#18 0x556f151c4332 <unknown>
+#19 0x556f1519287f <unknown>
+#20 0x556f151ea728 <unknown>
+#21 0x556f151ea8fb <unknown>
+#22 0x556f151fa9b4 <unknown>
+#23 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:19:24
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:20:46
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:22:07
+send_cards(driver) ошибка Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[4]/div/div[3]/div/div/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/a/i"}
+  (Session info: chrome-headless-shell=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f151fb863 <unknown>
+#1 0x556f14ef18c6 <unknown>
+#2 0x556f14f3c618 <unknown>
+#3 0x556f14f3c6d1 <unknown>
+#4 0x556f14f7f744 <unknown>
+#5 0x556f14f5e5cd <unknown>
+#6 0x556f14f7cc19 <unknown>
+#7 0x556f14f5e343 <unknown>
+#8 0x556f14f2f593 <unknown>
+#9 0x556f14f2ff5e <unknown>
+#10 0x556f151bf84b <unknown>
+#11 0x556f151c37a5 <unknown>
+#12 0x556f151ad571 <unknown>
+#13 0x556f151c4332 <unknown>
+#14 0x556f1519287f <unknown>
+#15 0x556f151ea728 <unknown>
+#16 0x556f151ea8fb <unknown>
+#17 0x556f151fa9b4 <unknown>
+#18 0x7faf8a8cd609 start_thread
+
+22-04-2024 14:26:19
+send_cards(driver) done!
+22-04-2024 14:31:58
+send_cards(driver) done!
+22-04-2024 14:37:37
+send_cards(driver) done!
+22-04-2024 14:43:13
+send_cards(driver) done!
+22-04-2024 14:48:51
+send_cards(driver) done!
+22-04-2024 14:54:28
+send_cards(driver) done!
+22-04-2024 15:00:10
+send_cards(driver) done!
+22-04-2024 15:05:51
+send_cards(driver) done!
+22-04-2024 15:11:29
+send_cards(driver) done!
+22-04-2024 15:17:08
+send_cards(driver) done!
+22-04-2024 15:22:47
+send_cards(driver) done!
+22-04-2024 15:28:25
+send_cards(driver) done!
+22-04-2024 15:34:03
+send_cards(driver) done!
+22-04-2024 15:39:43
+send_cards(driver) done!
+22-04-2024 15:45:23
+send_cards(driver) done!
+22-04-2024 15:51:01
+send_cards(driver) done!
+22-04-2024 15:56:41
+send_cards(driver) done!
+22-04-2024 16:02:17
+send_cards(driver) done!
+22-04-2024 16:02:54
+22-04-2024 16:02:54 Script accept_trade()  ошибка Message: 
+ Element {/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div[1]/div/input} was not present after 10 seconds!
+ 
+22-04-2024 17:24:58
+send_cards(driver) done!
+22-04-2024 17:30:40
+send_cards(driver) done!
+22-04-2024 17:36:25
+send_cards(driver) done!
+22-04-2024 17:42:10
+send_cards(driver) done!
+22-04-2024 17:47:55
+send_cards(driver) done!
+22-04-2024 17:53:35
+send_cards(driver) done!
+22-04-2024 17:59:24
+send_cards(driver) done!
+22-04-2024 18:05:12
+send_cards(driver) done!
+22-04-2024 18:10:52
+send_cards(driver) done!
+22-04-2024 18:16:33
+send_cards(driver) done!
+22-04-2024 18:22:14
+send_cards(driver) done!
+22-04-2024 18:27:56
+send_cards(driver) done!
+22-04-2024 18:33:38
+send_cards(driver) done!
+22-04-2024 18:39:20
+send_cards(driver) done!
+22-04-2024 18:45:01
+send_cards(driver) done!
+22-04-2024 18:50:46
+send_cards(driver) done!
+22-04-2024 18:56:28
+send_cards(driver) done!
+22-04-2024 19:02:10
+send_cards(driver) done!
+22-04-2024 19:07:52
+send_cards(driver) done!
+22-04-2024 19:13:34
+send_cards(driver) done!
+22-04-2024 19:19:14
+send_cards(driver) done!
+22-04-2024 19:24:59
+send_cards(driver) done!
+22-04-2024 19:30:41
+send_cards(driver) done!
+22-04-2024 19:36:24
+send_cards(driver) done!
+22-04-2024 19:42:09
+send_cards(driver) done!
+22-04-2024 19:47:50
+send_cards(driver) done!
+22-04-2024 19:53:36
+send_cards(driver) done!
+22-04-2024 19:59:19
+send_cards(driver) done!
+22-04-2024 20:05:09
+send_cards(driver) done!
+22-04-2024 20:10:52
+send_cards(driver) done!
+22-04-2024 20:16:34
+send_cards(driver) done!
+22-04-2024 20:22:16
+send_cards(driver) done!
+22-04-2024 20:27:57
+send_cards(driver) done!
+22-04-2024 20:33:39
+send_cards(driver) done!
+22-04-2024 20:39:21
+send_cards(driver) done!
+22-04-2024 20:45:01
+send_cards(driver) done!
+22-04-2024 20:50:42
+send_cards(driver) done!
+22-04-2024 20:56:25
+send_cards(driver) done!
+22-04-2024 21:02:05
+send_cards(driver) done!
+22-04-2024 21:07:52
+send_cards(driver) done!
+22-04-2024 21:13:32
+send_cards(driver) done!
+22-04-2024 21:19:14
+send_cards(driver) done!
+22-04-2024 21:24:58
+send_cards(driver) done!
+22-04-2024 21:30:40
+send_cards(driver) done!
+22-04-2024 21:36:26
+send_cards(driver) done!
+22-04-2024 21:42:09
+send_cards(driver) done!
+22-04-2024 21:47:52
+send_cards(driver) done!
+22-04-2024 21:53:34
+send_cards(driver) done!
+22-04-2024 21:59:19
+send_cards(driver) done!
+22-04-2024 22:05:01
+send_cards(driver) done!
+22-04-2024 22:10:44
+send_cards(driver) done!
+22-04-2024 22:16:28
+send_cards(driver) done!
+22-04-2024 22:22:08
+send_cards(driver) done!
+22-04-2024 22:27:49
+send_cards(driver) done!
+22-04-2024 22:33:34
+send_cards(driver) done!
+22-04-2024 22:39:15
+send_cards(driver) done!
+22-04-2024 22:44:58
+send_cards(driver) done!
+22-04-2024 22:50:38
+send_cards(driver) done!
+22-04-2024 22:56:21
+send_cards(driver) done!
+22-04-2024 23:02:03
+send_cards(driver) done!
+22-04-2024 23:07:47
+send_cards(driver) done!
+22-04-2024 23:13:29
+send_cards(driver) done!
+22-04-2024 23:19:11
+send_cards(driver) done!
+22-04-2024 23:24:56
+send_cards(driver) done!
+22-04-2024 23:30:37
+send_cards(driver) done!
+22-04-2024 23:36:24
+send_cards(driver) done!
+22-04-2024 23:42:07
+send_cards(driver) done!
+22-04-2024 23:47:49
+send_cards(driver) done!
+22-04-2024 23:53:30
+send_cards(driver) done!
+22-04-2024 23:59:15
+send_cards(driver) done!
+23-04-2024 00:05:00
+send_cards(driver) done!
+23-04-2024 00:11:28
+send_cards(driver) done!
+23-04-2024 00:17:15
+send_cards(driver) done!
+23-04-2024 00:23:10
+send_cards(driver) done!
+23-04-2024 00:28:53
+send_cards(driver) done!
+23-04-2024 00:34:35
+send_cards(driver) done!
+23-04-2024 00:40:19
+send_cards(driver) done!
+23-04-2024 00:46:03
+send_cards(driver) done!
+23-04-2024 00:51:43
+send_cards(driver) done!
+23-04-2024 00:57:27
+send_cards(driver) done!
+23-04-2024 01:03:09
+send_cards(driver) done!
+23-04-2024 01:08:56
+send_cards(driver) done!
+23-04-2024 01:14:39
+send_cards(driver) done!
+23-04-2024 01:20:22
+send_cards(driver) done!
+23-04-2024 01:26:08
+send_cards(driver) done!
+23-04-2024 01:31:48
+send_cards(driver) done!
+23-04-2024 01:37:31
+send_cards(driver) done!
+23-04-2024 01:43:14
+send_cards(driver) done!
+23-04-2024 01:48:57
+send_cards(driver) done!
+23-04-2024 01:54:39
+send_cards(driver) done!
+23-04-2024 02:00:26
+send_cards(driver) done!
+23-04-2024 02:06:13
+send_cards(driver) done!
+23-04-2024 02:11:58
+send_cards(driver) done!
+23-04-2024 02:17:47
+send_cards(driver) done!
+23-04-2024 02:23:33
+send_cards(driver) done!
+23-04-2024 02:29:16
+send_cards(driver) done!
+23-04-2024 02:34:59
+send_cards(driver) done!
+23-04-2024 02:40:45
+send_cards(driver) done!
+23-04-2024 02:46:27
+send_cards(driver) done!
+23-04-2024 02:52:09
+send_cards(driver) done!
+23-04-2024 02:57:50
+send_cards(driver) done!
+23-04-2024 03:03:30
+send_cards(driver) done!
+23-04-2024 03:09:13
+send_cards(driver) done!
+23-04-2024 03:14:57
+send_cards(driver) done!
+23-04-2024 03:20:39
+send_cards(driver) done!
+23-04-2024 03:26:25
+send_cards(driver) done!
+23-04-2024 03:32:08
+send_cards(driver) done!
+23-04-2024 03:37:50
+send_cards(driver) done!
+23-04-2024 03:43:32
+send_cards(driver) done!
+23-04-2024 03:49:15
+send_cards(driver) done!
+23-04-2024 03:54:55
+send_cards(driver) done!
+23-04-2024 04:00:37
+send_cards(driver) done!
+23-04-2024 04:06:18
+send_cards(driver) done!
+23-04-2024 04:11:58
+send_cards(driver) done!
+23-04-2024 04:17:41
+send_cards(driver) done!
+23-04-2024 04:23:23
+send_cards(driver) done!
+23-04-2024 04:29:09
+send_cards(driver) done!
+23-04-2024 04:34:49
+send_cards(driver) done!
+23-04-2024 04:40:36
+send_cards(driver) done!
+23-04-2024 04:46:16
+send_cards(driver) done!
+23-04-2024 04:51:56
+send_cards(driver) done!
+23-04-2024 04:57:38
+send_cards(driver) done!
+23-04-2024 05:03:20
+send_cards(driver) done!
+23-04-2024 05:09:03
+send_cards(driver) done!
+23-04-2024 05:14:44
+send_cards(driver) done!
+23-04-2024 05:20:28
+send_cards(driver) done!
+23-04-2024 05:26:11
+send_cards(driver) done!
+23-04-2024 05:31:51
+send_cards(driver) done!
+23-04-2024 05:37:32
+send_cards(driver) done!
+23-04-2024 05:43:13
+send_cards(driver) done!
+23-04-2024 05:48:55
+send_cards(driver) done!
+23-04-2024 05:54:36
+send_cards(driver) done!
+23-04-2024 06:00:16
+send_cards(driver) done!
+23-04-2024 06:05:58
+send_cards(driver) done!
+23-04-2024 06:11:40
+send_cards(driver) done!
+23-04-2024 06:17:23
+send_cards(driver) done!
+23-04-2024 06:23:05
+send_cards(driver) done!
+23-04-2024 06:28:48
+send_cards(driver) done!
+23-04-2024 06:34:34
+send_cards(driver) done!
+23-04-2024 06:40:16
+send_cards(driver) done!
+23-04-2024 06:45:56
+send_cards(driver) done!
+23-04-2024 06:51:36
+send_cards(driver) done!
+23-04-2024 06:57:18
+send_cards(driver) done!
+23-04-2024 07:03:01
+send_cards(driver) done!
+23-04-2024 07:08:42
+send_cards(driver) done!
+23-04-2024 07:14:23
+send_cards(driver) done!
+23-04-2024 07:20:03
+send_cards(driver) done!
+23-04-2024 07:25:43
+send_cards(driver) done!
+23-04-2024 07:31:30
+send_cards(driver) done!
+23-04-2024 07:37:12
+send_cards(driver) done!
+23-04-2024 07:42:53
+send_cards(driver) done!
+23-04-2024 07:48:36
+send_cards(driver) done!
+23-04-2024 07:54:18
+send_cards(driver) done!
+23-04-2024 07:59:59
+send_cards(driver) done!
+23-04-2024 08:05:39
+send_cards(driver) done!
+23-04-2024 08:11:22
+send_cards(driver) done!
+23-04-2024 08:17:06
+send_cards(driver) done!
+23-04-2024 08:22:49
+send_cards(driver) done!
+23-04-2024 08:28:31
+send_cards(driver) done!
+23-04-2024 08:30:25
+23-04-2024 08:30:25 Script accept_trade()  ошибка HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5878177496:AAHRpQ-8tDKD4fhYolBlLNZDdsJ9z3GvI34/sendMessage?chat_id=-4057600612&text=23-04-2024+08%3A30%3A20%09Script+main_upper_scripts+++%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD+%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0a7cf8d430>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) 
+23-04-2024 08:34:23
+send_cards(driver) done!
+23-04-2024 08:40:04
+send_cards(driver) done!
+23-04-2024 08:45:45
+send_cards(driver) done!
+23-04-2024 08:51:28
+send_cards(driver) done!
+23-04-2024 08:57:10
+send_cards(driver) done!
+23-04-2024 09:02:59
+send_cards(driver) done!
+23-04-2024 09:08:39
+send_cards(driver) done!
+23-04-2024 09:14:26
+send_cards(driver) done!
+23-04-2024 09:20:06
+send_cards(driver) done!
+23-04-2024 09:25:47
+send_cards(driver) done!
+23-04-2024 09:31:27
+send_cards(driver) done!
+23-04-2024 09:37:09
+send_cards(driver) done!
+23-04-2024 09:42:55
+send_cards(driver) done!
+23-04-2024 09:48:37
+send_cards(driver) done!
+23-04-2024 09:54:18
+send_cards(driver) done!
+23-04-2024 10:00:02
+send_cards(driver) done!
+23-04-2024 10:05:44
+send_cards(driver) done!
+23-04-2024 10:11:31
+send_cards(driver) done!
+23-04-2024 10:17:12
+send_cards(driver) done!
