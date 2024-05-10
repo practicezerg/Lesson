@@ -1,4 +1,6 @@
 заметки по Selenium
+сылка на SeleniumBase
+https://github.com/seleniumbase/SeleniumBase?tab=readme-ov-file
 
 with Driver(headed=False) as driver:
 			driver.maximize_window()
