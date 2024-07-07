@@ -1,4 +1,7 @@
 заметки по Selenium
+
+https://seleniumbase.io/#python_installation
+
 сылка на SeleniumBase
 https://github.com/seleniumbase/SeleniumBase?tab=readme-ov-file
 
