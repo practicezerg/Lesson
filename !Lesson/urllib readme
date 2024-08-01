@@ -1,0 +1,15 @@
+#Библиотека позволяет использовать прокси
+
+import urllib.request
+
+
+#Принцип работы
+proxy = urllib.request.ProxyHandler({'https': 'https://82.179.94.21:3128'})
+opener = urllib.request.build_opener(proxy)
+urllib.request.install_opener(opener)
+try:
+  req = urllib.request.urlopen('https://httpbin.org/ip', timeout=60)
+  req_data = req.read().decode('utf-8') 
+	
+если получили json
+data = json.loads(req_data)
