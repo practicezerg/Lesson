@@ -42,6 +42,22 @@ def write_log(start_time, end_time):
             msg_for_error = f"{date_for_log} sql_trancate_5min_hour_stat.py\n Ошибка  = {str(e)}\n{'*'*100}"
             w.write(msg_for_error)
         return e
+===================================================================
+
+Самодостатоная перезапись логов
+
+
+def func_clear_log_files():
+	write_step("Start func_clear_log_files")
+	for file in list_files:
+		with open(f"{path_for_log}{file}", "r", encoding="utf-8") as r:
+			lines = r.readlines()[-numbers_stay:]
+		with open(f"{path_for_log}{file}", "w", encoding="utf-8") as w:
+			w.writelines(lines)
+		write_step(f"Файл {file} успешно обрезан до последних {numbers_stay} строк.")
+	write_step("Finish func_clear_log_files")
+
+
 ####################Bash####################################################################################################
 ####################Bash####################################################################################################
 Bash version
